@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: efm-orchestrator
+  namespace: efm-system
+  labels:
+    app: efm-orchestrator
+spec:
+  replicas: 3  # HA setup
+  selector:
+    matchLabels:
+      app: efm-orchestrator
+  template:
+    metadata:
+      labels:
+        app: efm-orchestrator
+    spec:
+      containers:
+      - name: orchestrator
+        image: efm/orchestrator:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: EFM_NODE_ID
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: EFM_LOG_LEVEL
+          value: "INFO"
+        - name: REDIS_URL
+          valueFrom:
+            secretKeyRef:
+              name: efm-secrets
+              key: redis-url
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "2Gi"
+            cpu: "2000m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /status
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 5

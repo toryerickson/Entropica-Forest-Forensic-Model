@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: efm-system
+  labels:
+    app.kubernetes.io/name: efm
+    app.kubernetes.io/component: governance
