@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  efm-orchestrator:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.orchestrator
+    ports:
+      - "8000:8000"
+    environment:
+      - EFM_NODE_ID=orchestrator_primary
+      - EFM_LOG_LEVEL=INFO
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  efm-agent-simulator:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.agent
+    environment:
+      - ORCHESTRATOR_URL=http://efm-orchestrator:8000
+      - NUM_AGENTS=10
+      - TICK_INTERVAL_MS=500
+    depends_on:
+      efm-orchestrator:
+        condition: service_healthy

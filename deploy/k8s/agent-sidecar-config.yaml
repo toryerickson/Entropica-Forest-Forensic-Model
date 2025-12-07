@@ -1,0 +1,19 @@
+# This sidecar is injected into agent pods for d-CTM local consensus
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: efm-sidecar-config
+  namespace: efm-system
+data:
+  sidecar.yaml: |
+    orchestrator_url: http://efm-orchestrator:8000
+    local_consensus:
+      enabled: true
+      timeout_ms: 500
+    phi_extraction:
+      method: transformer_v_mean
+      dimensions: 48
+      normalize: true
+    reporting:
+      interval_ms: 100
+      batch_size: 10
