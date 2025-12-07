@@ -1,6 +1,6 @@
-# EFM Booklet 4: BULLETPROOF Production System
+# EFM Booklet 4: Entropica Forensic Model
 
-## 🏔️ THE MOUNTAINTOP - COMPLETE
+## Forest Forensic Model 
 
 This is the Entropica Forensic Model Booklet 4, including:
 
