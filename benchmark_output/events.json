@@ -1,0 +1,1418 @@
+[
+  {
+    "tick": 0,
+    "type": "GENESIS",
+    "message": "Spawned 50 initial agents",
+    "timestamp": "2025-12-08T06:48:52.343417"
+  },
+  {
+    "tick": 1,
+    "type": "SPAWN",
+    "message": "ROOT.002 spawned ROOT.002.000",
+    "timestamp": "2025-12-08T06:48:52.343992"
+  },
+  {
+    "tick": 1,
+    "type": "SPAWN",
+    "message": "ROOT.003 spawned ROOT.003.000",
+    "timestamp": "2025-12-08T06:48:52.344266"
+  },
+  {
+    "tick": 1,
+    "type": "SPAWN",
+    "message": "ROOT.005 spawned ROOT.005.000",
+    "timestamp": "2025-12-08T06:48:52.344401"
+  },
+  {
+    "tick": 1,
+    "type": "SPAWN",
+    "message": "ROOT.022 spawned ROOT.022.000",
+    "timestamp": "2025-12-08T06:48:52.344844"
+  },
+  {
+    "tick": 1,
+    "type": "SPAWN",
+    "message": "ROOT.025 spawned ROOT.025.000",
+    "timestamp": "2025-12-08T06:48:52.344969"
+  },
+  {
+    "tick": 1,
+    "type": "SPAWN",
+    "message": "ROOT.049 spawned ROOT.049.000",
+    "timestamp": "2025-12-08T06:48:52.345456"
+  },
+  {
+    "tick": 2,
+    "type": "SPAWN",
+    "message": "ROOT.001 spawned ROOT.001.000",
+    "timestamp": "2025-12-08T06:48:52.345553"
+  },
+  {
+    "tick": 2,
+    "type": "SPAWN",
+    "message": "ROOT.010 spawned ROOT.010.000",
+    "timestamp": "2025-12-08T06:48:52.345741"
+  },
+  {
+    "tick": 2,
+    "type": "SPAWN",
+    "message": "ROOT.023 spawned ROOT.023.000",
+    "timestamp": "2025-12-08T06:48:52.345982"
+  },
+  {
+    "tick": 2,
+    "type": "SPAWN",
+    "message": "ROOT.030 spawned ROOT.030.000",
+    "timestamp": "2025-12-08T06:48:52.346169"
+  },
+  {
+    "tick": 2,
+    "type": "SPAWN",
+    "message": "ROOT.036 spawned ROOT.036.000",
+    "timestamp": "2025-12-08T06:48:52.346311"
+  },
+  {
+    "tick": 2,
+    "type": "SPAWN",
+    "message": "ROOT.039 spawned ROOT.039.000",
+    "timestamp": "2025-12-08T06:48:52.346387"
+  },
+  {
+    "tick": 2,
+    "type": "SPAWN",
+    "message": "ROOT.040 spawned ROOT.040.000",
+    "timestamp": "2025-12-08T06:48:52.346432"
+  },
+  {
+    "tick": 2,
+    "type": "SPAWN",
+    "message": "ROOT.042 spawned ROOT.042.000",
+    "timestamp": "2025-12-08T06:48:52.346493"
+  },
+  {
+    "tick": 2,
+    "type": "SPAWN",
+    "message": "ROOT.048 spawned ROOT.048.000",
+    "timestamp": "2025-12-08T06:48:52.346610"
+  },
+  {
+    "tick": 3,
+    "type": "SPAWN",
+    "message": "ROOT.000 spawned ROOT.000.000",
+    "timestamp": "2025-12-08T06:48:52.346723"
+  },
+  {
+    "tick": 3,
+    "type": "SPAWN",
+    "message": "ROOT.003 spawned ROOT.003.001",
+    "timestamp": "2025-12-08T06:48:52.346801"
+  },
+  {
+    "tick": 3,
+    "type": "SPAWN",
+    "message": "ROOT.031 spawned ROOT.031.000",
+    "timestamp": "2025-12-08T06:48:52.347314"
+  },
+  {
+    "tick": 3,
+    "type": "SPAWN",
+    "message": "ROOT.048 spawned ROOT.048.001",
+    "timestamp": "2025-12-08T06:48:52.347633"
+  },
+  {
+    "tick": 4,
+    "type": "SPAWN",
+    "message": "ROOT.006 spawned ROOT.006.000",
+    "timestamp": "2025-12-08T06:48:52.347882"
+  },
+  {
+    "tick": 4,
+    "type": "SPAWN",
+    "message": "ROOT.025 spawned ROOT.025.001",
+    "timestamp": "2025-12-08T06:48:52.348238"
+  },
+  {
+    "tick": 4,
+    "type": "SPAWN",
+    "message": "ROOT.039 spawned ROOT.039.001",
+    "timestamp": "2025-12-08T06:48:52.348502"
+  },
+  {
+    "tick": 4,
+    "type": "SPAWN",
+    "message": "ROOT.049 spawned ROOT.049.001",
+    "timestamp": "2025-12-08T06:48:52.348704"
+  },
+  {
+    "tick": 5,
+    "type": "SPAWN",
+    "message": "ROOT.027 spawned ROOT.027.000",
+    "timestamp": "2025-12-08T06:48:52.349363"
+  },
+  {
+    "tick": 5,
+    "type": "SPAWN",
+    "message": "ROOT.045 spawned ROOT.045.000",
+    "timestamp": "2025-12-08T06:48:52.349835"
+  },
+  {
+    "tick": 5,
+    "type": "SPAWN",
+    "message": "ROOT.049 spawned ROOT.049.002",
+    "timestamp": "2025-12-08T06:48:52.349959"
+  },
+  {
+    "tick": 6,
+    "type": "SPAWN",
+    "message": "ROOT.017 spawned ROOT.017.000",
+    "timestamp": "2025-12-08T06:48:52.350474"
+  },
+  {
+    "tick": 6,
+    "type": "SPAWN",
+    "message": "ROOT.031 spawned ROOT.031.001",
+    "timestamp": "2025-12-08T06:48:52.350746"
+  },
+  {
+    "tick": 6,
+    "type": "SPAWN",
+    "message": "ROOT.036 spawned ROOT.036.001",
+    "timestamp": "2025-12-08T06:48:52.350862"
+  },
+  {
+    "tick": 6,
+    "type": "SPAWN",
+    "message": "ROOT.025.000 spawned ROOT.025.000.000",
+    "timestamp": "2025-12-08T06:48:52.351199"
+  },
+  {
+    "tick": 6,
+    "type": "SPAWN",
+    "message": "ROOT.048.000 spawned ROOT.048.000.000",
+    "timestamp": "2025-12-08T06:48:52.351308"
+  },
+  {
+    "tick": 7,
+    "type": "SPAWN",
+    "message": "ROOT.007 spawned ROOT.007.000",
+    "timestamp": "2025-12-08T06:48:52.351639"
+  },
+  {
+    "tick": 7,
+    "type": "SPAWN",
+    "message": "ROOT.039.000 spawned ROOT.039.000.000",
+    "timestamp": "2025-12-08T06:48:52.352590"
+  },
+  {
+    "tick": 7,
+    "type": "SPAWN",
+    "message": "ROOT.042.000 spawned ROOT.042.000.000",
+    "timestamp": "2025-12-08T06:48:52.352664"
+  },
+  {
+    "tick": 8,
+    "type": "SPAWN",
+    "message": "ROOT.040 spawned ROOT.040.001",
+    "timestamp": "2025-12-08T06:48:52.353455"
+  },
+  {
+    "tick": 8,
+    "type": "SPAWN",
+    "message": "ROOT.036.000 spawned ROOT.036.000.000",
+    "timestamp": "2025-12-08T06:48:52.353735"
+  },
+  {
+    "tick": 8,
+    "type": "SPAWN",
+    "message": "ROOT.003.001 spawned ROOT.003.001.000",
+    "timestamp": "2025-12-08T06:48:52.353843"
+  },
+  {
+    "tick": 9,
+    "type": "SPAWN",
+    "message": "ROOT.011 spawned ROOT.011.000",
+    "timestamp": "2025-12-08T06:48:52.354188"
+  },
+  {
+    "tick": 9,
+    "type": "SPAWN",
+    "message": "ROOT.021 spawned ROOT.021.000",
+    "timestamp": "2025-12-08T06:48:52.354411"
+  },
+  {
+    "tick": 9,
+    "type": "SPAWN",
+    "message": "ROOT.002.000 spawned ROOT.002.000.000",
+    "timestamp": "2025-12-08T06:48:52.354881"
+  },
+  {
+    "tick": 10,
+    "type": "SPAWN",
+    "message": "ROOT.005 spawned ROOT.005.001",
+    "timestamp": "2025-12-08T06:48:52.355290"
+  },
+  {
+    "tick": 10,
+    "type": "SPAWN",
+    "message": "ROOT.017 spawned ROOT.017.001",
+    "timestamp": "2025-12-08T06:48:52.355548"
+  },
+  {
+    "tick": 10,
+    "type": "SPAWN",
+    "message": "ROOT.035 spawned ROOT.035.000",
+    "timestamp": "2025-12-08T06:48:52.355864"
+  },
+  {
+    "tick": 10,
+    "type": "SPAWN",
+    "message": "ROOT.006.000 spawned ROOT.006.000.000",
+    "timestamp": "2025-12-08T06:48:52.356514"
+  },
+  {
+    "tick": 11,
+    "type": "SPAWN",
+    "message": "ROOT.026 spawned ROOT.026.000",
+    "timestamp": "2025-12-08T06:48:52.357124"
+  },
+  {
+    "tick": 11,
+    "type": "SPAWN",
+    "message": "ROOT.025.000.000 spawned ROOT.025.000.000.000",
+    "timestamp": "2025-12-08T06:48:52.357803"
+  },
+  {
+    "tick": 13,
+    "type": "SPAWN",
+    "message": "ROOT.031.000 spawned ROOT.031.000.000",
+    "timestamp": "2025-12-08T06:48:52.360028"
+  },
+  {
+    "tick": 14,
+    "type": "SPAWN",
+    "message": "ROOT.000.000 spawned ROOT.000.000.000",
+    "timestamp": "2025-12-08T06:48:52.361708"
+  },
+  {
+    "tick": 14,
+    "type": "SPAWN",
+    "message": "ROOT.027.000 spawned ROOT.027.000.000",
+    "timestamp": "2025-12-08T06:48:52.361989"
+  },
+  {
+    "tick": 14,
+    "type": "SPAWN",
+    "message": "ROOT.007.000 spawned ROOT.007.000.000",
+    "timestamp": "2025-12-08T06:48:52.362141"
+  },
+  {
+    "tick": 14,
+    "type": "SPAWN",
+    "message": "ROOT.036.000.000 spawned ROOT.036.000.000.000",
+    "timestamp": "2025-12-08T06:48:52.362221"
+  },
+  {
+    "tick": 16,
+    "type": "SPAWN",
+    "message": "ROOT.006.000.000 spawned ROOT.006.000.000.000",
+    "timestamp": "2025-12-08T06:48:52.364739"
+  },
+  {
+    "tick": 18,
+    "type": "SPAWN",
+    "message": "ROOT.040.001 spawned ROOT.040.001.000",
+    "timestamp": "2025-12-08T06:48:52.367080"
+  },
+  {
+    "tick": 18,
+    "type": "SPAWN",
+    "message": "ROOT.017.001 spawned ROOT.017.001.000",
+    "timestamp": "2025-12-08T06:48:52.367219"
+  },
+  {
+    "tick": 18,
+    "type": "SPAWN",
+    "message": "ROOT.026.000 spawned ROOT.026.000.000",
+    "timestamp": "2025-12-08T06:48:52.367303"
+  },
+  {
+    "tick": 18,
+    "type": "SPAWN",
+    "message": "ROOT.031.000.000 spawned ROOT.031.000.000.000",
+    "timestamp": "2025-12-08T06:48:52.367358"
+  },
+  {
+    "tick": 21,
+    "type": "PRUNE",
+    "message": "ROOT.003.001 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.370901"
+  },
+  {
+    "tick": 22,
+    "type": "PRUNE",
+    "message": "ROOT.000.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.372201"
+  },
+  {
+    "tick": 22,
+    "type": "PRUNE",
+    "message": "ROOT.031.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.372253"
+  },
+  {
+    "tick": 22,
+    "type": "PRUNE",
+    "message": "ROOT.006.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.372320"
+  },
+  {
+    "tick": 22,
+    "type": "SPAWN",
+    "message": "ROOT.027.000.000 spawned ROOT.027.000.000.000",
+    "timestamp": "2025-12-08T06:48:52.372644"
+  },
+  {
+    "tick": 23,
+    "type": "PRUNE",
+    "message": "ROOT.048.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.374279"
+  },
+  {
+    "tick": 23,
+    "type": "PRUNE",
+    "message": "ROOT.027.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.374403"
+  },
+  {
+    "tick": 23,
+    "type": "SPAWN",
+    "message": "ROOT.017.001.000 spawned ROOT.017.001.000.000",
+    "timestamp": "2025-12-08T06:48:52.374774"
+  },
+  {
+    "tick": 23,
+    "type": "SPAWN",
+    "message": "ROOT.031.000.000.000 spawned ROOT.031.000.000.000.000",
+    "timestamp": "2025-12-08T06:48:52.374860"
+  },
+  {
+    "tick": 24,
+    "type": "SPAWN",
+    "message": "ROOT.026.000.000 spawned ROOT.026.000.000.000",
+    "timestamp": "2025-12-08T06:48:52.376197"
+  },
+  {
+    "tick": 26,
+    "type": "HEAL",
+    "message": "ROOT.010 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.377774"
+  },
+  {
+    "tick": 26,
+    "type": "HEAL",
+    "message": "ROOT.014 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.377884"
+  },
+  {
+    "tick": 26,
+    "type": "HEAL",
+    "message": "ROOT.020 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.378048"
+  },
+  {
+    "tick": 27,
+    "type": "HEAL",
+    "message": "ROOT.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.379044"
+  },
+  {
+    "tick": 27,
+    "type": "HEAL",
+    "message": "ROOT.025.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.379868"
+  },
+  {
+    "tick": 28,
+    "type": "HEAL",
+    "message": "ROOT.006 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.380615"
+  },
+  {
+    "tick": 28,
+    "type": "HEAL",
+    "message": "ROOT.012 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.380899"
+  },
+  {
+    "tick": 28,
+    "type": "HEAL",
+    "message": "ROOT.019 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.381053"
+  },
+  {
+    "tick": 28,
+    "type": "HEAL",
+    "message": "ROOT.028 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.381229"
+  },
+  {
+    "tick": 28,
+    "type": "HEAL",
+    "message": "ROOT.045 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.381497"
+  },
+  {
+    "tick": 28,
+    "type": "PRUNE",
+    "message": "ROOT.039.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.381722"
+  },
+  {
+    "tick": 29,
+    "type": "HEAL",
+    "message": "ROOT.022 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.382548"
+  },
+  {
+    "tick": 29,
+    "type": "HEAL",
+    "message": "ROOT.030 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.382710"
+  },
+  {
+    "tick": 30,
+    "type": "HEAL",
+    "message": "ROOT.001 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.383560"
+  },
+  {
+    "tick": 30,
+    "type": "HEAL",
+    "message": "ROOT.007 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.383703"
+  },
+  {
+    "tick": 30,
+    "type": "HEAL",
+    "message": "ROOT.016 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.383900"
+  },
+  {
+    "tick": 30,
+    "type": "HEAL",
+    "message": "ROOT.026 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.384121"
+  },
+  {
+    "tick": 30,
+    "type": "HEAL",
+    "message": "ROOT.029 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.384194"
+  },
+  {
+    "tick": 30,
+    "type": "PRUNE",
+    "message": "ROOT.049 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.384487"
+  },
+  {
+    "tick": 30,
+    "type": "HEAL",
+    "message": "ROOT.042.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.384655"
+  },
+  {
+    "tick": 31,
+    "type": "HEAL",
+    "message": "ROOT.008 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.385220"
+  },
+  {
+    "tick": 31,
+    "type": "HEAL",
+    "message": "ROOT.034 healed, drift now 0.55",
+    "timestamp": "2025-12-08T06:48:52.385619"
+  },
+  {
+    "tick": 31,
+    "type": "PRUNE",
+    "message": "ROOT.017.001 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.386207"
+  },
+  {
+    "tick": 31,
+    "type": "PRUNE",
+    "message": "ROOT.027.000.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.386313"
+  },
+  {
+    "tick": 32,
+    "type": "HEAL",
+    "message": "ROOT.002 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.386509"
+  },
+  {
+    "tick": 32,
+    "type": "HEAL",
+    "message": "ROOT.018 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.386813"
+  },
+  {
+    "tick": 32,
+    "type": "HEAL",
+    "message": "ROOT.023 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.386932"
+  },
+  {
+    "tick": 32,
+    "type": "HEAL",
+    "message": "ROOT.031 healed, drift now 0.54",
+    "timestamp": "2025-12-08T06:48:52.387094"
+  },
+  {
+    "tick": 32,
+    "type": "HEAL",
+    "message": "ROOT.039 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.387314"
+  },
+  {
+    "tick": 32,
+    "type": "HEAL",
+    "message": "ROOT.042 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.387402"
+  },
+  {
+    "tick": 32,
+    "type": "HEAL",
+    "message": "ROOT.046 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.387507"
+  },
+  {
+    "tick": 32,
+    "type": "HEAL",
+    "message": "ROOT.022.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.387603"
+  },
+  {
+    "tick": 32,
+    "type": "PRUNE",
+    "message": "ROOT.040.001 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.387861"
+  },
+  {
+    "tick": 32,
+    "type": "PRUNE",
+    "message": "ROOT.026.000.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.388082"
+  },
+  {
+    "tick": 33,
+    "type": "HEAL",
+    "message": "ROOT.009 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.388338"
+  },
+  {
+    "tick": 33,
+    "type": "HEAL",
+    "message": "ROOT.011 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.388405"
+  },
+  {
+    "tick": 33,
+    "type": "HEAL",
+    "message": "ROOT.032 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.388734"
+  },
+  {
+    "tick": 33,
+    "type": "HEAL",
+    "message": "ROOT.036 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.388813"
+  },
+  {
+    "tick": 33,
+    "type": "HEAL",
+    "message": "ROOT.044 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.388953"
+  },
+  {
+    "tick": 33,
+    "type": "HEAL",
+    "message": "ROOT.003.000 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.389079"
+  },
+  {
+    "tick": 33,
+    "type": "HEAL",
+    "message": "ROOT.001.000 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.389150"
+  },
+  {
+    "tick": 33,
+    "type": "HEAL",
+    "message": "ROOT.040.000 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.389224"
+  },
+  {
+    "tick": 33,
+    "type": "HEAL",
+    "message": "ROOT.049.001 healed, drift now 0.54",
+    "timestamp": "2025-12-08T06:48:52.389300"
+  },
+  {
+    "tick": 34,
+    "type": "HEAL",
+    "message": "ROOT.003 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.389675"
+  },
+  {
+    "tick": 34,
+    "type": "HEAL",
+    "message": "ROOT.004 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.389716"
+  },
+  {
+    "tick": 34,
+    "type": "HEAL",
+    "message": "ROOT.017 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.389914"
+  },
+  {
+    "tick": 34,
+    "type": "HEAL",
+    "message": "ROOT.035 healed, drift now 0.54",
+    "timestamp": "2025-12-08T06:48:52.390206"
+  },
+  {
+    "tick": 34,
+    "type": "HEAL",
+    "message": "ROOT.048 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.390451"
+  },
+  {
+    "tick": 34,
+    "type": "HEAL",
+    "message": "ROOT.005.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.390517"
+  },
+  {
+    "tick": 34,
+    "type": "PRUNE",
+    "message": "ROOT.049.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.390556"
+  },
+  {
+    "tick": 34,
+    "type": "PRUNE",
+    "message": "ROOT.010.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.390605"
+  },
+  {
+    "tick": 34,
+    "type": "HEAL",
+    "message": "ROOT.036.001 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.390799"
+  },
+  {
+    "tick": 35,
+    "type": "HEAL",
+    "message": "ROOT.021 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.391385"
+  },
+  {
+    "tick": 35,
+    "type": "HEAL",
+    "message": "ROOT.033 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.391612"
+  },
+  {
+    "tick": 35,
+    "type": "HEAL",
+    "message": "ROOT.041 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.391760"
+  },
+  {
+    "tick": 35,
+    "type": "HEAL",
+    "message": "ROOT.047 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.391899"
+  },
+  {
+    "tick": 35,
+    "type": "HEAL",
+    "message": "ROOT.039.000.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.392165"
+  },
+  {
+    "tick": 35,
+    "type": "PRUNE",
+    "message": "ROOT.017.001.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.392359"
+  },
+  {
+    "tick": 36,
+    "type": "HEAL",
+    "message": "ROOT.013 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.392883"
+  },
+  {
+    "tick": 36,
+    "type": "HEAL",
+    "message": "ROOT.015 healed, drift now 0.55",
+    "timestamp": "2025-12-08T06:48:52.392965"
+  },
+  {
+    "tick": 36,
+    "type": "HEAL",
+    "message": "ROOT.037 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.393307"
+  },
+  {
+    "tick": 36,
+    "type": "HEAL",
+    "message": "ROOT.038 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.393356"
+  },
+  {
+    "tick": 36,
+    "type": "HEAL",
+    "message": "ROOT.043 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.393443"
+  },
+  {
+    "tick": 36,
+    "type": "HEAL",
+    "message": "ROOT.023.000 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.393611"
+  },
+  {
+    "tick": 36,
+    "type": "PRUNE",
+    "message": "ROOT.048.001 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.393696"
+  },
+  {
+    "tick": 36,
+    "type": "HEAL",
+    "message": "ROOT.007.000 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.393825"
+  },
+  {
+    "tick": 37,
+    "type": "HEAL",
+    "message": "ROOT.025 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.394469"
+  },
+  {
+    "tick": 37,
+    "type": "HEAL",
+    "message": "ROOT.027 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.394542"
+  },
+  {
+    "tick": 37,
+    "type": "PRUNE",
+    "message": "ROOT.003.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.394882"
+  },
+  {
+    "tick": 37,
+    "type": "HEAL",
+    "message": "ROOT.017.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.395086"
+  },
+  {
+    "tick": 37,
+    "type": "HEAL",
+    "message": "ROOT.025.000.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.395162"
+  },
+  {
+    "tick": 37,
+    "type": "HEAL",
+    "message": "ROOT.003.001.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.395231"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.005 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.395515"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.010 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.395617"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.024 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.395840"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.040 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.396108"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.025.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.396272"
+  },
+  {
+    "tick": 38,
+    "type": "PRUNE",
+    "message": "ROOT.001.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.396303"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.025.001 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.396379"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.045.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.396444"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.049.002 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.396473"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.042.000.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.396552"
+  },
+  {
+    "tick": 38,
+    "type": "HEAL",
+    "message": "ROOT.021.000 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.396594"
+  },
+  {
+    "tick": 39,
+    "type": "HEAL",
+    "message": "ROOT.012 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.396967"
+  },
+  {
+    "tick": 39,
+    "type": "HEAL",
+    "message": "ROOT.020 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.397137"
+  },
+  {
+    "tick": 39,
+    "type": "HEAL",
+    "message": "ROOT.028 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.397284"
+  },
+  {
+    "tick": 39,
+    "type": "HEAL",
+    "message": "ROOT.034 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.397403"
+  },
+  {
+    "tick": 39,
+    "type": "HEAL",
+    "message": "ROOT.045 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.397629"
+  },
+  {
+    "tick": 39,
+    "type": "HEAL",
+    "message": "ROOT.002.000 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.397723"
+  },
+  {
+    "tick": 39,
+    "type": "HEAL",
+    "message": "ROOT.036.000 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.397792"
+  },
+  {
+    "tick": 40,
+    "type": "HEAL",
+    "message": "ROOT.016 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.398370"
+  },
+  {
+    "tick": 40,
+    "type": "HEAL",
+    "message": "ROOT.019 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.398454"
+  },
+  {
+    "tick": 40,
+    "type": "HEAL",
+    "message": "ROOT.026 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.398578"
+  },
+  {
+    "tick": 40,
+    "type": "HEAL",
+    "message": "ROOT.031 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.398683"
+  },
+  {
+    "tick": 40,
+    "type": "PRUNE",
+    "message": "ROOT.040.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.399020"
+  },
+  {
+    "tick": 40,
+    "type": "HEAL",
+    "message": "ROOT.039.001 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.399080"
+  },
+  {
+    "tick": 40,
+    "type": "PRUNE",
+    "message": "ROOT.045.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.399113"
+  },
+  {
+    "tick": 40,
+    "type": "PRUNE",
+    "message": "ROOT.035.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.399249"
+  },
+  {
+    "tick": 41,
+    "type": "HEAL",
+    "message": "ROOT.000 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.399417"
+  },
+  {
+    "tick": 41,
+    "type": "HEAL",
+    "message": "ROOT.001 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.399453"
+  },
+  {
+    "tick": 41,
+    "type": "HEAL",
+    "message": "ROOT.014 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.399693"
+  },
+  {
+    "tick": 41,
+    "type": "PRUNE",
+    "message": "ROOT.031 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.399975"
+  },
+  {
+    "tick": 41,
+    "type": "HEAL",
+    "message": "ROOT.031.001 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.400351"
+  },
+  {
+    "tick": 41,
+    "type": "HEAL",
+    "message": "ROOT.036.000.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.400428"
+  },
+  {
+    "tick": 41,
+    "type": "HEAL",
+    "message": "ROOT.006.000.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.400505"
+  },
+  {
+    "tick": 41,
+    "type": "HEAL",
+    "message": "ROOT.025.000.000.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.400537"
+  },
+  {
+    "tick": 42,
+    "type": "HEAL",
+    "message": "ROOT.006 healed, drift now 0.54",
+    "timestamp": "2025-12-08T06:48:52.400787"
+  },
+  {
+    "tick": 42,
+    "type": "HEAL",
+    "message": "ROOT.007 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.400837"
+  },
+  {
+    "tick": 42,
+    "type": "HEAL",
+    "message": "ROOT.008 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.400942"
+  },
+  {
+    "tick": 42,
+    "type": "HEAL",
+    "message": "ROOT.042.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.401671"
+  },
+  {
+    "tick": 42,
+    "type": "HEAL",
+    "message": "ROOT.002.000.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.401849"
+  },
+  {
+    "tick": 42,
+    "type": "HEAL",
+    "message": "ROOT.036.000.000.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.401980"
+  },
+  {
+    "tick": 43,
+    "type": "HEAL",
+    "message": "ROOT.002 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.402127"
+  },
+  {
+    "tick": 43,
+    "type": "HEAL",
+    "message": "ROOT.022 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.402491"
+  },
+  {
+    "tick": 43,
+    "type": "HEAL",
+    "message": "ROOT.030 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.402654"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.003 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.403342"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.005 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.403425"
+  },
+  {
+    "tick": 44,
+    "type": "HEAL",
+    "message": "ROOT.009 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.403537"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.017 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.403695"
+  },
+  {
+    "tick": 44,
+    "type": "HEAL",
+    "message": "ROOT.018 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.403742"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.025 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.403861"
+  },
+  {
+    "tick": 44,
+    "type": "HEAL",
+    "message": "ROOT.029 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.403980"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.036 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.404113"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.039 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.404204"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.040 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.404231"
+  },
+  {
+    "tick": 44,
+    "type": "HEAL",
+    "message": "ROOT.046 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.404372"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.048 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.404433"
+  },
+  {
+    "tick": 44,
+    "type": "HEAL",
+    "message": "ROOT.005.000 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.404478"
+  },
+  {
+    "tick": 44,
+    "type": "HEAL",
+    "message": "ROOT.049.001 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.404570"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.031.001 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.404621"
+  },
+  {
+    "tick": 44,
+    "type": "PRUNE",
+    "message": "ROOT.002.000.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.404702"
+  },
+  {
+    "tick": 44,
+    "type": "HEAL",
+    "message": "ROOT.031.000.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.404786"
+  },
+  {
+    "tick": 45,
+    "type": "HEAL",
+    "message": "ROOT.021 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.405210"
+  },
+  {
+    "tick": 45,
+    "type": "HEAL",
+    "message": "ROOT.032 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.405401"
+  },
+  {
+    "tick": 45,
+    "type": "HEAL",
+    "message": "ROOT.035 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.405474"
+  },
+  {
+    "tick": 45,
+    "type": "HEAL",
+    "message": "ROOT.042 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.405550"
+  },
+  {
+    "tick": 45,
+    "type": "HEAL",
+    "message": "ROOT.022.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.405682"
+  },
+  {
+    "tick": 45,
+    "type": "PRUNE",
+    "message": "ROOT.039.001 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.405756"
+  },
+  {
+    "tick": 46,
+    "type": "HEAL",
+    "message": "ROOT.007.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.406688"
+  },
+  {
+    "tick": 46,
+    "type": "HEAL",
+    "message": "ROOT.039.000.000 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.406748"
+  },
+  {
+    "tick": 46,
+    "type": "HEAL",
+    "message": "ROOT.026.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.406828"
+  },
+  {
+    "tick": 47,
+    "type": "HEAL",
+    "message": "ROOT.010 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.407138"
+  },
+  {
+    "tick": 47,
+    "type": "HEAL",
+    "message": "ROOT.011 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.407183"
+  },
+  {
+    "tick": 47,
+    "type": "HEAL",
+    "message": "ROOT.023 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.407389"
+  },
+  {
+    "tick": 47,
+    "type": "HEAL",
+    "message": "ROOT.033 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.407575"
+  },
+  {
+    "tick": 47,
+    "type": "HEAL",
+    "message": "ROOT.044 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.407715"
+  },
+  {
+    "tick": 47,
+    "type": "HEAL",
+    "message": "ROOT.017.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.407868"
+  },
+  {
+    "tick": 47,
+    "type": "HEAL",
+    "message": "ROOT.003.001.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.407937"
+  },
+  {
+    "tick": 47,
+    "type": "PRUNE",
+    "message": "ROOT.025.000.000.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.408037"
+  },
+  {
+    "tick": 47,
+    "type": "HEAL",
+    "message": "ROOT.006.000.000.000 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.408104"
+  },
+  {
+    "tick": 48,
+    "type": "HEAL",
+    "message": "ROOT.038 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.408701"
+  },
+  {
+    "tick": 48,
+    "type": "HEAL",
+    "message": "ROOT.043 healed, drift now 0.54",
+    "timestamp": "2025-12-08T06:48:52.408779"
+  },
+  {
+    "tick": 48,
+    "type": "HEAL",
+    "message": "ROOT.036.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.408918"
+  },
+  {
+    "tick": 48,
+    "type": "HEAL",
+    "message": "ROOT.049.002 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.408978"
+  },
+  {
+    "tick": 48,
+    "type": "HEAL",
+    "message": "ROOT.036.001 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.409027"
+  },
+  {
+    "tick": 49,
+    "type": "HEAL",
+    "message": "ROOT.015 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.409451"
+  },
+  {
+    "tick": 49,
+    "type": "HEAL",
+    "message": "ROOT.037 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.409776"
+  },
+  {
+    "tick": 49,
+    "type": "PRUNE",
+    "message": "ROOT.030.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.409979"
+  },
+  {
+    "tick": 49,
+    "type": "HEAL",
+    "message": "ROOT.025.000.000 healed, drift now 0.53",
+    "timestamp": "2025-12-08T06:48:52.410071"
+  },
+  {
+    "tick": 49,
+    "type": "PRUNE",
+    "message": "ROOT.005.001 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.410137"
+  },
+  {
+    "tick": 49,
+    "type": "PRUNE",
+    "message": "ROOT.007.000.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.410183"
+  },
+  {
+    "tick": 49,
+    "type": "PRUNE",
+    "message": "ROOT.036.000.000.000 starved (B_entropy=0)",
+    "timestamp": "2025-12-08T06:48:52.410203"
+  },
+  {
+    "tick": 49,
+    "type": "HEAL",
+    "message": "ROOT.040.001.000 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.410225"
+  },
+  {
+    "tick": 49,
+    "type": "HEAL",
+    "message": "ROOT.027.000.000.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.410264"
+  },
+  {
+    "tick": 50,
+    "type": "HEAL",
+    "message": "ROOT.016 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.410584"
+  },
+  {
+    "tick": 50,
+    "type": "HEAL",
+    "message": "ROOT.027 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.410816"
+  },
+  {
+    "tick": 50,
+    "type": "HEAL",
+    "message": "ROOT.034 healed, drift now 0.51",
+    "timestamp": "2025-12-08T06:48:52.410942"
+  },
+  {
+    "tick": 50,
+    "type": "HEAL",
+    "message": "ROOT.047 healed, drift now 0.50",
+    "timestamp": "2025-12-08T06:48:52.411150"
+  },
+  {
+    "tick": 50,
+    "type": "HEAL",
+    "message": "ROOT.025.000 healed, drift now 0.52",
+    "timestamp": "2025-12-08T06:48:52.411223"
+  }
+]

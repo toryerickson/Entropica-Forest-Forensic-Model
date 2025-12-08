@@ -1,0 +1,771 @@
+{
+  "ROOT.000": {
+    "parent": null,
+    "children": [
+      "ROOT.000.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.001": {
+    "parent": null,
+    "children": [
+      "ROOT.001.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.002": {
+    "parent": null,
+    "children": [
+      "ROOT.002.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.003": {
+    "parent": null,
+    "children": [
+      "ROOT.003.000",
+      "ROOT.003.001"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.004": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.005": {
+    "parent": null,
+    "children": [
+      "ROOT.005.000",
+      "ROOT.005.001"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.006": {
+    "parent": null,
+    "children": [
+      "ROOT.006.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.007": {
+    "parent": null,
+    "children": [
+      "ROOT.007.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.008": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.009": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.010": {
+    "parent": null,
+    "children": [
+      "ROOT.010.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.011": {
+    "parent": null,
+    "children": [
+      "ROOT.011.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.012": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.013": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.014": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.015": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.016": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.017": {
+    "parent": null,
+    "children": [
+      "ROOT.017.000",
+      "ROOT.017.001"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.018": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.019": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.020": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.021": {
+    "parent": null,
+    "children": [
+      "ROOT.021.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.022": {
+    "parent": null,
+    "children": [
+      "ROOT.022.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.023": {
+    "parent": null,
+    "children": [
+      "ROOT.023.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.024": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.025": {
+    "parent": null,
+    "children": [
+      "ROOT.025.000",
+      "ROOT.025.001"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.026": {
+    "parent": null,
+    "children": [
+      "ROOT.026.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.027": {
+    "parent": null,
+    "children": [
+      "ROOT.027.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.028": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.029": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.030": {
+    "parent": null,
+    "children": [
+      "ROOT.030.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.031": {
+    "parent": null,
+    "children": [
+      "ROOT.031.000",
+      "ROOT.031.001"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.032": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.033": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.034": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.035": {
+    "parent": null,
+    "children": [
+      "ROOT.035.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.036": {
+    "parent": null,
+    "children": [
+      "ROOT.036.000",
+      "ROOT.036.001"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.037": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.038": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.039": {
+    "parent": null,
+    "children": [
+      "ROOT.039.000",
+      "ROOT.039.001"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.040": {
+    "parent": null,
+    "children": [
+      "ROOT.040.000",
+      "ROOT.040.001"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.041": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.042": {
+    "parent": null,
+    "children": [
+      "ROOT.042.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.043": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.044": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.045": {
+    "parent": null,
+    "children": [
+      "ROOT.045.000"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.046": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.047": {
+    "parent": null,
+    "children": [],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.048": {
+    "parent": null,
+    "children": [
+      "ROOT.048.000",
+      "ROOT.048.001"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.049": {
+    "parent": null,
+    "children": [
+      "ROOT.049.000",
+      "ROOT.049.001",
+      "ROOT.049.002"
+    ],
+    "generation": 0,
+    "spawn_tick": 0
+  },
+  "ROOT.002.000": {
+    "parent": "ROOT.002",
+    "children": [
+      "ROOT.002.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 1
+  },
+  "ROOT.003.000": {
+    "parent": "ROOT.003",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 1
+  },
+  "ROOT.005.000": {
+    "parent": "ROOT.005",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 1
+  },
+  "ROOT.022.000": {
+    "parent": "ROOT.022",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 1
+  },
+  "ROOT.025.000": {
+    "parent": "ROOT.025",
+    "children": [
+      "ROOT.025.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 1
+  },
+  "ROOT.049.000": {
+    "parent": "ROOT.049",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 1
+  },
+  "ROOT.001.000": {
+    "parent": "ROOT.001",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 2
+  },
+  "ROOT.010.000": {
+    "parent": "ROOT.010",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 2
+  },
+  "ROOT.023.000": {
+    "parent": "ROOT.023",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 2
+  },
+  "ROOT.030.000": {
+    "parent": "ROOT.030",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 2
+  },
+  "ROOT.036.000": {
+    "parent": "ROOT.036",
+    "children": [
+      "ROOT.036.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 2
+  },
+  "ROOT.039.000": {
+    "parent": "ROOT.039",
+    "children": [
+      "ROOT.039.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 2
+  },
+  "ROOT.040.000": {
+    "parent": "ROOT.040",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 2
+  },
+  "ROOT.042.000": {
+    "parent": "ROOT.042",
+    "children": [
+      "ROOT.042.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 2
+  },
+  "ROOT.048.000": {
+    "parent": "ROOT.048",
+    "children": [
+      "ROOT.048.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 2
+  },
+  "ROOT.000.000": {
+    "parent": "ROOT.000",
+    "children": [
+      "ROOT.000.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 3
+  },
+  "ROOT.003.001": {
+    "parent": "ROOT.003",
+    "children": [
+      "ROOT.003.001.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 3
+  },
+  "ROOT.031.000": {
+    "parent": "ROOT.031",
+    "children": [
+      "ROOT.031.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 3
+  },
+  "ROOT.048.001": {
+    "parent": "ROOT.048",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 3
+  },
+  "ROOT.006.000": {
+    "parent": "ROOT.006",
+    "children": [
+      "ROOT.006.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 4
+  },
+  "ROOT.025.001": {
+    "parent": "ROOT.025",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 4
+  },
+  "ROOT.039.001": {
+    "parent": "ROOT.039",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 4
+  },
+  "ROOT.049.001": {
+    "parent": "ROOT.049",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 4
+  },
+  "ROOT.027.000": {
+    "parent": "ROOT.027",
+    "children": [
+      "ROOT.027.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 5
+  },
+  "ROOT.045.000": {
+    "parent": "ROOT.045",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 5
+  },
+  "ROOT.049.002": {
+    "parent": "ROOT.049",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 5
+  },
+  "ROOT.017.000": {
+    "parent": "ROOT.017",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 6
+  },
+  "ROOT.031.001": {
+    "parent": "ROOT.031",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 6
+  },
+  "ROOT.036.001": {
+    "parent": "ROOT.036",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 6
+  },
+  "ROOT.025.000.000": {
+    "parent": "ROOT.025.000",
+    "children": [
+      "ROOT.025.000.000.000"
+    ],
+    "generation": 2,
+    "spawn_tick": 6
+  },
+  "ROOT.048.000.000": {
+    "parent": "ROOT.048.000",
+    "children": [],
+    "generation": 2,
+    "spawn_tick": 6
+  },
+  "ROOT.007.000": {
+    "parent": "ROOT.007",
+    "children": [
+      "ROOT.007.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 7
+  },
+  "ROOT.039.000.000": {
+    "parent": "ROOT.039.000",
+    "children": [],
+    "generation": 2,
+    "spawn_tick": 7
+  },
+  "ROOT.042.000.000": {
+    "parent": "ROOT.042.000",
+    "children": [],
+    "generation": 2,
+    "spawn_tick": 7
+  },
+  "ROOT.040.001": {
+    "parent": "ROOT.040",
+    "children": [
+      "ROOT.040.001.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 8
+  },
+  "ROOT.036.000.000": {
+    "parent": "ROOT.036.000",
+    "children": [
+      "ROOT.036.000.000.000"
+    ],
+    "generation": 2,
+    "spawn_tick": 8
+  },
+  "ROOT.003.001.000": {
+    "parent": "ROOT.003.001",
+    "children": [],
+    "generation": 2,
+    "spawn_tick": 8
+  },
+  "ROOT.011.000": {
+    "parent": "ROOT.011",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 9
+  },
+  "ROOT.021.000": {
+    "parent": "ROOT.021",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 9
+  },
+  "ROOT.002.000.000": {
+    "parent": "ROOT.002.000",
+    "children": [],
+    "generation": 2,
+    "spawn_tick": 9
+  },
+  "ROOT.005.001": {
+    "parent": "ROOT.005",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 10
+  },
+  "ROOT.017.001": {
+    "parent": "ROOT.017",
+    "children": [
+      "ROOT.017.001.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 10
+  },
+  "ROOT.035.000": {
+    "parent": "ROOT.035",
+    "children": [],
+    "generation": 1,
+    "spawn_tick": 10
+  },
+  "ROOT.006.000.000": {
+    "parent": "ROOT.006.000",
+    "children": [
+      "ROOT.006.000.000.000"
+    ],
+    "generation": 2,
+    "spawn_tick": 10
+  },
+  "ROOT.026.000": {
+    "parent": "ROOT.026",
+    "children": [
+      "ROOT.026.000.000"
+    ],
+    "generation": 1,
+    "spawn_tick": 11
+  },
+  "ROOT.025.000.000.000": {
+    "parent": "ROOT.025.000.000",
+    "children": [],
+    "generation": 3,
+    "spawn_tick": 11
+  },
+  "ROOT.031.000.000": {
+    "parent": "ROOT.031.000",
+    "children": [
+      "ROOT.031.000.000.000"
+    ],
+    "generation": 2,
+    "spawn_tick": 13
+  },
+  "ROOT.000.000.000": {
+    "parent": "ROOT.000.000",
+    "children": [],
+    "generation": 2,
+    "spawn_tick": 14
+  },
+  "ROOT.027.000.000": {
+    "parent": "ROOT.027.000",
+    "children": [
+      "ROOT.027.000.000.000"
+    ],
+    "generation": 2,
+    "spawn_tick": 14
+  },
+  "ROOT.007.000.000": {
+    "parent": "ROOT.007.000",
+    "children": [],
+    "generation": 2,
+    "spawn_tick": 14
+  },
+  "ROOT.036.000.000.000": {
+    "parent": "ROOT.036.000.000",
+    "children": [],
+    "generation": 3,
+    "spawn_tick": 14
+  },
+  "ROOT.006.000.000.000": {
+    "parent": "ROOT.006.000.000",
+    "children": [],
+    "generation": 3,
+    "spawn_tick": 16
+  },
+  "ROOT.040.001.000": {
+    "parent": "ROOT.040.001",
+    "children": [],
+    "generation": 2,
+    "spawn_tick": 18
+  },
+  "ROOT.017.001.000": {
+    "parent": "ROOT.017.001",
+    "children": [
+      "ROOT.017.001.000.000"
+    ],
+    "generation": 2,
+    "spawn_tick": 18
+  },
+  "ROOT.026.000.000": {
+    "parent": "ROOT.026.000",
+    "children": [
+      "ROOT.026.000.000.000"
+    ],
+    "generation": 2,
+    "spawn_tick": 18
+  },
+  "ROOT.031.000.000.000": {
+    "parent": "ROOT.031.000.000",
+    "children": [
+      "ROOT.031.000.000.000.000"
+    ],
+    "generation": 3,
+    "spawn_tick": 18
+  },
+  "ROOT.027.000.000.000": {
+    "parent": "ROOT.027.000.000",
+    "children": [],
+    "generation": 3,
+    "spawn_tick": 22
+  },
+  "ROOT.017.001.000.000": {
+    "parent": "ROOT.017.001.000",
+    "children": [],
+    "generation": 3,
+    "spawn_tick": 23
+  },
+  "ROOT.031.000.000.000.000": {
+    "parent": "ROOT.031.000.000.000",
+    "children": [],
+    "generation": 4,
+    "spawn_tick": 23
+  },
+  "ROOT.026.000.000.000": {
+    "parent": "ROOT.026.000.000",
+    "children": [],
+    "generation": 3,
+    "spawn_tick": 24
+  }
+}
