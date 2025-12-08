@@ -1,0 +1,16 @@
+{
+  "ticks_completed": 50,
+  "total_spawned": 110,
+  "total_pruned": 38,
+  "active_agents": 72,
+  "total_discoveries": 88,
+  "winters_survived": 0,
+  "invariant_violations": 37,
+  "avg_SCI": 0.31603514057215737,
+  "avg_FDR": 0.9199739903869462,
+  "max_generation": 4,
+  "sci_passed": false,
+  "fdr_passed": true,
+  "survival_passed": true,
+  "overall_passed": false
+}
