@@ -1,0 +1,105 @@
+\contentsline {part}{I\hspace {1em}The Distributed Challenge}{5}{part.1}%
+\contentsline {section}{\numberline {1}Why Distribution Matters}{5}{section.1}%
+\contentsline {section}{\numberline {2}The Components of Booklet 4}{5}{section.2}%
+\contentsline {section}{\numberline {3}Architecture Overview}{6}{section.3}%
+\contentsline {part}{II\hspace {1em}Decentralized Cognitive Trace Memory (d-CTM)}{6}{part.2}%
+\contentsline {section}{\numberline {4}From Centralized to Distributed}{6}{section.4}%
+\contentsline {section}{\numberline {5}Local CTM Node}{7}{section.5}%
+\contentsline {section}{\numberline {6}BFT Consensus Protocol}{7}{section.6}%
+\contentsline {section}{\numberline {7}Partition Handling}{7}{section.7}%
+\contentsline {part}{III\hspace {1em}Inter-Agent Bridge Integrity Matrix (IA-BIM)}{8}{part.3}%
+\contentsline {section}{\numberline {8}From Capsules to Agents}{8}{section.8}%
+\contentsline {section}{\numberline {9}Swarm Coherence Matrix}{8}{section.9}%
+\contentsline {section}{\numberline {10}Consensus Loss Detection}{8}{section.10}%
+\contentsline {part}{IV\hspace {1em}Cognitive Genealogy and the Orphan Protocol}{9}{part.4}%
+\contentsline {section}{\numberline {11}Agent Spawning and Lineage}{9}{section.11}%
+\contentsline {section}{\numberline {12}Orphan Classification}{10}{section.12}%
+\contentsline {section}{\numberline {13}The Orphan Protocol}{10}{section.13}%
+\contentsline {section}{\numberline {14}Adoption Protocol}{11}{section.14}%
+\contentsline {part}{V\hspace {1em}Hierarchical Zero-Knowledge Symbolic Proofs}{11}{part.5}%
+\contentsline {section}{\numberline {15}The Audit Problem}{11}{section.15}%
+\contentsline {section}{\numberline {16}Proof Hierarchy}{12}{section.16}%
+\contentsline {section}{\numberline {17}Verification Complexity}{12}{section.17}%
+\contentsline {section}{\numberline {18}Implementation Status}{13}{section.18}%
+\contentsline {part}{VI\hspace {1em}Regenerative Architecture}{13}{part.6}%
+\contentsline {section}{\numberline {19}The Growth-Decay Loop}{13}{section.19}%
+\contentsline {section}{\numberline {20}Context-Decay Pruning (CDP)}{13}{section.20}%
+\contentsline {section}{\numberline {21}Regenerative Delta ($\Delta _{\text {Regen}}$)}{14}{section.21}%
+\contentsline {section}{\numberline {22}Cognitive Entropy Budget ($\mathcal {B}_{\text {entropy}}$)}{14}{section.22}%
+\contentsline {section}{\numberline {23}Autonomous Growth Module (AGM)}{14}{section.23}%
+\contentsline {section}{\numberline {24}Anomaly Exploration Swarms (AES)}{15}{section.24}%
+\contentsline {section}{\numberline {25}Regenerative Efficiency Test (RET)}{15}{section.25}%
+\contentsline {section}{\numberline {26}Local Autonomy, Global Awareness}{15}{section.26}%
+\contentsline {section}{\numberline {27}Escalation Protocol}{16}{section.27}%
+\contentsline {part}{VII\hspace {1em}Reflexive Symbolic Cognition Systems}{16}{part.7}%
+\contentsline {section}{\numberline {28}The Closed Loop}{16}{section.28}%
+\contentsline {section}{\numberline {29}Levels of Autonomy}{18}{section.29}%
+\contentsline {section}{\numberline {30}Does This Meet the Definition of Cognition?}{18}{section.30}%
+\contentsline {part}{VIII\hspace {1em}Empirical Validation}{19}{part.8}%
+\contentsline {section}{\numberline {31}Validation Scope and Limitations}{19}{section.31}%
+\contentsline {section}{\numberline {32}Scalability Results}{19}{section.32}%
+\contentsline {section}{\numberline {33}Consensus Detection}{20}{section.33}%
+\contentsline {section}{\numberline {34}Partition Tolerance}{20}{section.34}%
+\contentsline {section}{\numberline {35}Component Validation Summary}{21}{section.35}%
+\contentsline {part}{IX\hspace {1em}Conclusion and Future Work}{21}{part.9}%
+\contentsline {section}{\numberline {36}What We've Built}{21}{section.36}%
+\contentsline {section}{\numberline {37}The Regulatory Angle}{21}{section.37}%
+\contentsline {section}{\numberline {38}Open Questions}{21}{section.38}%
+\contentsline {section}{\numberline {39}Future Work: Booklet 5?}{22}{section.39}%
+\contentsline {section}{\numberline {40}The Final Word}{22}{section.40}%
+\contentsline {part}{X\hspace {1em}Advanced Architectures}{22}{part.10}%
+\contentsline {section}{\numberline {41}Domain-Specific Language (DSL)}{22}{section.41}%
+\contentsline {subsection}{\numberline {41.1}Command Syntax}{23}{subsection.41.1}%
+\contentsline {subsection}{\numberline {41.2}Supported Actions}{23}{subsection.41.2}%
+\contentsline {section}{\numberline {42}Topological Coherence ($\Psi _{\text {topo}}$)}{23}{section.42}%
+\contentsline {subsection}{\numberline {42.1}Betti Numbers}{23}{subsection.42.1}%
+\contentsline {section}{\numberline {43}Genesis Protocol (Evolutionary Speciation)}{24}{section.43}%
+\contentsline {subsection}{\numberline {43.1}Mechanism}{24}{subsection.43.1}%
+\contentsline {section}{\numberline {44}Sustainability Analysis}{24}{section.44}%
+\contentsline {subsection}{\numberline {44.1}Sustainability Ratio}{24}{subsection.44.1}%
+\contentsline {section}{\numberline {45}Forest Architecture: Autonomous Purpose Creation}{25}{section.45}%
+\contentsline {subsection}{\numberline {45.1}Core Principle: Decay $\to $ Growth}{25}{subsection.45.1}%
+\contentsline {subsection}{\numberline {45.2}Anomaly Detection Matrix (ADM)}{25}{subsection.45.2}%
+\contentsline {subsection}{\numberline {45.3}Exploration Branches}{25}{subsection.45.3}%
+\contentsline {subsection}{\numberline {45.4}Purpose Synthesis}{25}{subsection.45.4}%
+\contentsline {subsection}{\numberline {45.5}Trunk Seeding: Emergent Self-Origination}{26}{subsection.45.5}%
+\contentsline {subsection}{\numberline {45.6}Demonstrated Results}{26}{subsection.45.6}%
+\contentsline {subsection}{\numberline {45.7}Purpose Creation: Strong Evidence}{27}{subsection.45.7}%
+\contentsline {subsection}{\numberline {45.8}Extended Benchmark (150 Ticks)}{28}{subsection.45.8}%
+\contentsline {subsection}{\numberline {45.9}Swarm Ecosystem: Cross-Trunk Analysis}{28}{subsection.45.9}%
+\contentsline {subsubsection}{\numberline {45.9.1}Architecture Components}{29}{subsubsection.45.9.1}%
+\contentsline {subsubsection}{\numberline {45.9.2}Density Regime Classification}{29}{subsubsection.45.9.2}%
+\contentsline {subsubsection}{\numberline {45.9.3}Benchmark Results (3 Swarms, 100 Ticks)}{30}{subsubsection.45.9.3}%
+\contentsline {subsubsection}{\numberline {45.9.4}Convergent Discovery Analysis}{31}{subsubsection.45.9.4}%
+\contentsline {subsubsection}{\numberline {45.9.5}Scalability Considerations}{31}{subsubsection.45.9.5}%
+\contentsline {subsection}{\numberline {45.10}Production Core: Closing the Gaps}{32}{subsection.45.10}%
+\contentsline {subsubsection}{\numberline {45.10.1}Semantic Embedding Engine}{32}{subsubsection.45.10.1}%
+\contentsline {subsubsection}{\numberline {45.10.2}Deep Pattern Correlator}{32}{subsubsection.45.10.2}%
+\contentsline {subsubsection}{\numberline {45.10.3}Byzantine-Tolerant Consensus}{33}{subsubsection.45.10.3}%
+\contentsline {subsubsection}{\numberline {45.10.4}Validation Framework}{33}{subsubsection.45.10.4}%
+\contentsline {subsubsection}{\numberline {45.10.5}Unified API}{33}{subsubsection.45.10.5}%
+\contentsline {subsubsection}{\numberline {45.10.6}Production Core Results}{34}{subsubsection.45.10.6}%
+\contentsline {part}{Appendices}{34}{table.22}%
+\contentsline {part}{Appendices}{34}{table.22}%
+\contentsline {section}{\numberline {A}EFM vs. Standard Resilient Systems}{34}{appendix.A}%
+\contentsline {section}{\numberline {B}Protocol Extensions Summary}{35}{appendix.B}%
+\contentsline {section}{\numberline {C}Autonomy Level Assessment}{36}{appendix.C}%
+\contentsline {section}{\numberline {D}Longevity Claim Assessment}{37}{appendix.D}%
+\contentsline {section}{\numberline {E}Glossary}{37}{appendix.E}%
+\contentsline {section}{\numberline {F}Document History}{37}{appendix.F}%
+\contentsline {section}{\numberline {G}Operational Layer: From Theory to Deployment}{37}{appendix.G}%
+\contentsline {subsection}{\numberline {G.1}EFMCore Orchestrator}{38}{subsection.G.1}%
+\contentsline {subsection}{\numberline {G.2}ZK-SP Implementation Stubs}{38}{subsection.G.2}%
+\contentsline {subsection}{\numberline {G.3}Deployment Configuration}{38}{subsection.G.3}%
+\contentsline {section}{\numberline {H}Integration Layer: Closing the Gaps}{39}{appendix.H}%
+\contentsline {subsection}{\numberline {H.1}EFMCore Tick Loop}{39}{subsection.H.1}%
+\contentsline {subsection}{\numberline {H.2}d-CTM Message Specification}{39}{subsection.H.2}%
+\contentsline {subsection}{\numberline {H.3}Threat Model Matrix}{40}{subsection.H.3}%
+\contentsline {subsection}{\numberline {H.4}Swarm Command Interface (UI Specification)}{40}{subsection.H.4}%
+\contentsline {subsection}{\numberline {H.5}Hardware Requirements}{41}{subsection.H.5}%
+\contentsline {subsection}{\numberline {H.6}Symbolic Cognitive Density (SCD)}{41}{subsection.H.6}%
+\contentsline {subsection}{\numberline {H.7}Cross-Lineage Drift Contagion Modeling}{41}{subsection.H.7}%
+\contentsline {subsection}{\numberline {H.8}Enhanced DSL Interpreter}{42}{subsection.H.8}%
+\contentsline {subsection}{\numberline {H.9}Failover Coordination Across EFMs}{42}{subsection.H.9}%
+\contentsline {subsection}{\numberline {H.10}Deployment Profiles}{42}{subsection.H.10}%
+\contentsline {section}{\numberline {I}References}{43}{appendix.I}%

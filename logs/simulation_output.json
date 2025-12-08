@@ -1,0 +1,5320 @@
+[
+  {
+    "tick": 0,
+    "timestamp": 1765170983.758831,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_000",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=None, lineage_depth=0",
+    "data": {
+      "phi_norm": 0.9999999999999999,
+      "parent": null
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.7588925,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_001",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=cap_000, lineage_depth=1",
+    "data": {
+      "phi_norm": 1.0,
+      "parent": "cap_000"
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.7589235,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_002",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=cap_001, lineage_depth=2",
+    "data": {
+      "phi_norm": 1.0,
+      "parent": "cap_001"
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.758947,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_003",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=cap_000, lineage_depth=1",
+    "data": {
+      "phi_norm": 0.9999999999999999,
+      "parent": "cap_000"
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.758967,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_004",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=cap_000, lineage_depth=1",
+    "data": {
+      "phi_norm": 1.0,
+      "parent": "cap_000"
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.7589853,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_005",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=cap_000, lineage_depth=1",
+    "data": {
+      "phi_norm": 1.0,
+      "parent": "cap_000"
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.759002,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_006",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=cap_000, lineage_depth=1",
+    "data": {
+      "phi_norm": 1.0,
+      "parent": "cap_000"
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.7590177,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_007",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=cap_006, lineage_depth=2",
+    "data": {
+      "phi_norm": 1.0,
+      "parent": "cap_006"
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.7590332,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_008",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=None, lineage_depth=0",
+    "data": {
+      "phi_norm": 1.0,
+      "parent": null
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.7590497,
+    "event_type": "PHI_INGESTED",
+    "capsule_id": "cap_009",
+    "severity": "INFO",
+    "message": "Capsule initialized with parent=cap_003, lineage_depth=2",
+    "data": {
+      "phi_norm": 1.0,
+      "parent": "cap_003"
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.7590592,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "=== SIMULATION START: 100 ticks, 10 capsules ===",
+    "data": {
+      "n_ticks": 100,
+      "n_capsules": 10
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.7590659,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 0 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 0,
+    "timestamp": 1765170983.7592287,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 0 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 1,
+    "timestamp": 1765170983.759236,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 1 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 1,
+    "timestamp": 1765170983.7592978,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 1 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 2,
+    "timestamp": 1765170983.7593021,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 2 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 2,
+    "timestamp": 1765170983.759369,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 2 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 3,
+    "timestamp": 1765170983.759373,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 3 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 3,
+    "timestamp": 1765170983.7594182,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 3 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 4,
+    "timestamp": 1765170983.7594216,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 4 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 4,
+    "timestamp": 1765170983.7594666,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 4 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 5,
+    "timestamp": 1765170983.7594697,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 5 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 5,
+    "timestamp": 1765170983.7595181,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 5 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 6,
+    "timestamp": 1765170983.7595217,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 6 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 6,
+    "timestamp": 1765170983.759566,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 6 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 7,
+    "timestamp": 1765170983.7595694,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 7 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 7,
+    "timestamp": 1765170983.7596123,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 7 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 8,
+    "timestamp": 1765170983.7596154,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 8 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 8,
+    "timestamp": 1765170983.7596679,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 8 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 9,
+    "timestamp": 1765170983.7596714,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 9 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 9,
+    "timestamp": 1765170983.7597167,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 9 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 10,
+    "timestamp": 1765170983.7597198,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 10 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 10,
+    "timestamp": 1765170983.7597466,
+    "event_type": "PROOF_GENERATED",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "ZK-SP Proof generated: proof_0010",
+    "data": {
+      "proof_id": "proof_0010",
+      "agents_covered": 10,
+      "tick": 10
+    }
+  },
+  {
+    "tick": 10,
+    "timestamp": 1765170983.7597747,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 10 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 11,
+    "timestamp": 1765170983.7597778,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 11 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 11,
+    "timestamp": 1765170983.7598243,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 11 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 12,
+    "timestamp": 1765170983.7598276,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 12 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 12,
+    "timestamp": 1765170983.759877,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 12 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 13,
+    "timestamp": 1765170983.7598798,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 13 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 13,
+    "timestamp": 1765170983.7599306,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 13 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 14,
+    "timestamp": 1765170983.7599337,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 14 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 14,
+    "timestamp": 1765170983.7599795,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 14 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 15,
+    "timestamp": 1765170983.7599823,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 15 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 15,
+    "timestamp": 1765170983.7600286,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 15 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 16,
+    "timestamp": 1765170983.7600315,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 16 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 16,
+    "timestamp": 1765170983.760077,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 16 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 17,
+    "timestamp": 1765170983.7600796,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 17 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 17,
+    "timestamp": 1765170983.7601225,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 17 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 18,
+    "timestamp": 1765170983.7601252,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 18 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 18,
+    "timestamp": 1765170983.7601671,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 18 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 19,
+    "timestamp": 1765170983.7601695,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 19 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 19,
+    "timestamp": 1765170983.7602108,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 19 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 20,
+    "timestamp": 1765170983.7602127,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 20 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 20,
+    "timestamp": 1765170983.7602336,
+    "event_type": "PROOF_GENERATED",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "ZK-SP Proof generated: proof_0020",
+    "data": {
+      "proof_id": "proof_0020",
+      "agents_covered": 10,
+      "tick": 20
+    }
+  },
+  {
+    "tick": 20,
+    "timestamp": 1765170983.7602568,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 20 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 21,
+    "timestamp": 1765170983.7602592,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 21 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 21,
+    "timestamp": 1765170983.7602985,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 21 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 22,
+    "timestamp": 1765170983.7603009,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 22 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 22,
+    "timestamp": 1765170983.7603555,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 22 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 23,
+    "timestamp": 1765170983.7603583,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 23 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 23,
+    "timestamp": 1765170983.7603977,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 23 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 24,
+    "timestamp": 1765170983.760403,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 24 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 24,
+    "timestamp": 1765170983.7604508,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 24 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 25,
+    "timestamp": 1765170983.7604537,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 25 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 25,
+    "timestamp": 1765170983.7604938,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 25 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 26,
+    "timestamp": 1765170983.7604966,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 26 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 26,
+    "timestamp": 1765170983.7605364,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 26 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 27,
+    "timestamp": 1765170983.7605388,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 27 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 27,
+    "timestamp": 1765170983.7605789,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 27 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 28,
+    "timestamp": 1765170983.760581,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 28 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 28,
+    "timestamp": 1765170983.7606218,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 28 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 29,
+    "timestamp": 1765170983.7606244,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 29 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 29,
+    "timestamp": 1765170983.7606678,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 29 End ---",
+    "data": {
+      "active": 10,
+      "quarantined": 0,
+      "avg_stability": 1.0,
+      "avg_drift": 0.0
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7606702,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 30 Start ---",
+    "data": {
+      "active_capsules": 10
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760673,
+    "event_type": "DRIFT_DETECTED",
+    "capsule_id": null,
+    "severity": "WARNING",
+    "message": "!!! DRIFT INJECTION EVENT: Targeting 3 capsules !!!",
+    "data": {
+      "targets": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7606983,
+    "event_type": "DRIFT_DETECTED",
+    "capsule_id": "cap_000",
+    "severity": "CRITICAL",
+    "message": "Drift injected: velocity=0.483",
+    "data": {
+      "drift_velocity": 0.4834571902199506,
+      "injection_type": "ADVERSARIAL"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607126,
+    "event_type": "DRIFT_DETECTED",
+    "capsule_id": "cap_001",
+    "severity": "CRITICAL",
+    "message": "Drift injected: velocity=0.521",
+    "data": {
+      "drift_velocity": 0.5207652371287583,
+      "injection_type": "ADVERSARIAL"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760724,
+    "event_type": "DRIFT_DETECTED",
+    "capsule_id": "cap_002",
+    "severity": "CRITICAL",
+    "message": "Drift injected: velocity=0.451",
+    "data": {
+      "drift_velocity": 0.45118906739535874,
+      "injection_type": "ADVERSARIAL"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760731,
+    "event_type": "DRIFT_DETECTED",
+    "capsule_id": "cap_000",
+    "severity": "WARNING",
+    "message": "Drift detected: velocity=0.459, stability=0.100",
+    "data": {
+      "drift_velocity": 0.459284330708953,
+      "stability": 0.1,
+      "ttf": 6.531901481091655
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607343,
+    "event_type": "DSL_ACTION",
+    "capsule_id": "cap_000",
+    "severity": "INFO",
+    "message": "Executing action: HEAL",
+    "data": {
+      "action": "HEAL",
+      "trigger": "drift_threshold"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607362,
+    "event_type": "HEAL_ATTEMPT",
+    "capsule_id": "cap_000",
+    "severity": "INFO",
+    "message": "Attempting heal: stability=0.100",
+    "data": {}
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607388,
+    "event_type": "HEAL_FAILURE",
+    "capsule_id": "cap_000",
+    "severity": "WARNING",
+    "message": "Heal FAILED: escalating to quarantine",
+    "data": {}
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607405,
+    "event_type": "DSL_ACTION",
+    "capsule_id": "cap_000",
+    "severity": "INFO",
+    "message": "Executing action: QUARANTINE",
+    "data": {
+      "action": "QUARANTINE",
+      "trigger": "drift_threshold"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607458,
+    "event_type": "QUARANTINE",
+    "capsule_id": "cap_000",
+    "severity": "WARNING",
+    "message": "Capsule QUARANTINED (count: 1)",
+    "data": {
+      "quarantine_count": 1
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607508,
+    "event_type": "LINEAGE_EVENT",
+    "capsule_id": "cap_000",
+    "severity": "WARNING",
+    "message": "Checking lineage contagion: 5 children",
+    "data": {
+      "children": [
+        "cap_001",
+        "cap_003",
+        "cap_004",
+        "cap_005",
+        "cap_006"
+      ]
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607543,
+    "event_type": "LINEAGE_EVENT",
+    "capsule_id": "cap_001",
+    "severity": "WARNING",
+    "message": "Inherited drift from parent cap_000: velocity=0.521",
+    "data": {
+      "inherited_from": "cap_000",
+      "drift": 0.5207652371287583
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607572,
+    "event_type": "LINEAGE_EVENT",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "Inherited drift from parent cap_000: velocity=0.230",
+    "data": {
+      "inherited_from": "cap_000",
+      "drift": 0.2296421653544765
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607594,
+    "event_type": "LINEAGE_EVENT",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "Inherited drift from parent cap_000: velocity=0.230",
+    "data": {
+      "inherited_from": "cap_000",
+      "drift": 0.2296421653544765
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607608,
+    "event_type": "LINEAGE_EVENT",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "Inherited drift from parent cap_000: velocity=0.230",
+    "data": {
+      "inherited_from": "cap_000",
+      "drift": 0.2296421653544765
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760763,
+    "event_type": "LINEAGE_EVENT",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "Inherited drift from parent cap_000: velocity=0.230",
+    "data": {
+      "inherited_from": "cap_000",
+      "drift": 0.2296421653544765
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760765,
+    "event_type": "STABILITY_CHANGE",
+    "capsule_id": "cap_000",
+    "severity": "WARNING",
+    "message": "Low stability: 0.100",
+    "data": {
+      "stability": 0.1,
+      "threshold": 0.3
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607682,
+    "event_type": "TTF_CRITICAL",
+    "capsule_id": "cap_000",
+    "severity": "CRITICAL",
+    "message": "TTF CRITICAL: 6.5 ticks remaining",
+    "data": {
+      "ttf": 6.531901481091655
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607698,
+    "event_type": "DSL_ACTION",
+    "capsule_id": "cap_000",
+    "severity": "INFO",
+    "message": "Executing action: ESCALATE",
+    "data": {
+      "action": "ESCALATE",
+      "trigger": "drift_threshold"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607715,
+    "event_type": "ESCALATION",
+    "capsule_id": "cap_000",
+    "severity": "CRITICAL",
+    "message": "ESCALATION: Human-in-the-loop review required",
+    "data": {
+      "drift_velocity": 0.459284330708953,
+      "ttf": 6.531901481091655,
+      "stability": 0.1
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760775,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_000",
+    "severity": "INFO",
+    "message": "Trace level: L1 \u2192 L4",
+    "data": {
+      "old_level": 1,
+      "new_level": 4
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.76078,
+    "event_type": "DRIFT_DETECTED",
+    "capsule_id": "cap_001",
+    "severity": "WARNING",
+    "message": "Drift detected: velocity=0.495, stability=0.100",
+    "data": {
+      "drift_velocity": 0.4947269752723204,
+      "stability": 0.1,
+      "ttf": 6.063950724232619
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607841,
+    "event_type": "DSL_ACTION",
+    "capsule_id": "cap_001",
+    "severity": "INFO",
+    "message": "Executing action: HEAL",
+    "data": {
+      "action": "HEAL",
+      "trigger": "drift_threshold"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607856,
+    "event_type": "HEAL_ATTEMPT",
+    "capsule_id": "cap_001",
+    "severity": "INFO",
+    "message": "Attempting heal: stability=0.100",
+    "data": {}
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607877,
+    "event_type": "HEAL_FAILURE",
+    "capsule_id": "cap_001",
+    "severity": "WARNING",
+    "message": "Heal FAILED: escalating to quarantine",
+    "data": {}
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760789,
+    "event_type": "DSL_ACTION",
+    "capsule_id": "cap_001",
+    "severity": "INFO",
+    "message": "Executing action: QUARANTINE",
+    "data": {
+      "action": "QUARANTINE",
+      "trigger": "drift_threshold"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7607949,
+    "event_type": "QUARANTINE",
+    "capsule_id": "cap_001",
+    "severity": "WARNING",
+    "message": "Capsule QUARANTINED (count: 1)",
+    "data": {
+      "quarantine_count": 1
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760798,
+    "event_type": "LINEAGE_EVENT",
+    "capsule_id": "cap_001",
+    "severity": "WARNING",
+    "message": "Checking lineage contagion: 1 children",
+    "data": {
+      "children": [
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608004,
+    "event_type": "LINEAGE_EVENT",
+    "capsule_id": "cap_002",
+    "severity": "WARNING",
+    "message": "Inherited drift from parent cap_001: velocity=0.451",
+    "data": {
+      "inherited_from": "cap_001",
+      "drift": 0.45118906739535874
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608023,
+    "event_type": "STABILITY_CHANGE",
+    "capsule_id": "cap_001",
+    "severity": "WARNING",
+    "message": "Low stability: 0.100",
+    "data": {
+      "stability": 0.1,
+      "threshold": 0.3
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608042,
+    "event_type": "TTF_CRITICAL",
+    "capsule_id": "cap_001",
+    "severity": "CRITICAL",
+    "message": "TTF CRITICAL: 6.1 ticks remaining",
+    "data": {
+      "ttf": 6.063950724232619
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608075,
+    "event_type": "DSL_ACTION",
+    "capsule_id": "cap_001",
+    "severity": "INFO",
+    "message": "Executing action: ESCALATE",
+    "data": {
+      "action": "ESCALATE",
+      "trigger": "drift_threshold"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760809,
+    "event_type": "ESCALATION",
+    "capsule_id": "cap_001",
+    "severity": "CRITICAL",
+    "message": "ESCALATION: Human-in-the-loop review required",
+    "data": {
+      "drift_velocity": 0.4947269752723204,
+      "ttf": 6.063950724232619,
+      "stability": 0.1
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760811,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_001",
+    "severity": "INFO",
+    "message": "Trace level: L1 \u2192 L4",
+    "data": {
+      "old_level": 1,
+      "new_level": 4
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608154,
+    "event_type": "DRIFT_DETECTED",
+    "capsule_id": "cap_002",
+    "severity": "WARNING",
+    "message": "Drift detected: velocity=0.429, stability=0.143",
+    "data": {
+      "drift_velocity": 0.4286296140255908,
+      "stability": 0.1427407719488184,
+      "ttf": 6.999049766591462
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608168,
+    "event_type": "DSL_ACTION",
+    "capsule_id": "cap_002",
+    "severity": "INFO",
+    "message": "Executing action: HEAL",
+    "data": {
+      "action": "HEAL",
+      "trigger": "drift_threshold"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608182,
+    "event_type": "HEAL_ATTEMPT",
+    "capsule_id": "cap_002",
+    "severity": "INFO",
+    "message": "Attempting heal: stability=0.143",
+    "data": {}
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.76082,
+    "event_type": "HEAL_FAILURE",
+    "capsule_id": "cap_002",
+    "severity": "WARNING",
+    "message": "Heal FAILED: escalating to quarantine",
+    "data": {}
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608213,
+    "event_type": "DSL_ACTION",
+    "capsule_id": "cap_002",
+    "severity": "INFO",
+    "message": "Executing action: QUARANTINE",
+    "data": {
+      "action": "QUARANTINE",
+      "trigger": "drift_threshold"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608228,
+    "event_type": "QUARANTINE",
+    "capsule_id": "cap_002",
+    "severity": "WARNING",
+    "message": "Capsule QUARANTINED (count: 1)",
+    "data": {
+      "quarantine_count": 1
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608259,
+    "event_type": "STABILITY_CHANGE",
+    "capsule_id": "cap_002",
+    "severity": "WARNING",
+    "message": "Low stability: 0.143",
+    "data": {
+      "stability": 0.1427407719488184,
+      "threshold": 0.3
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608273,
+    "event_type": "TTF_CRITICAL",
+    "capsule_id": "cap_002",
+    "severity": "CRITICAL",
+    "message": "TTF CRITICAL: 7.0 ticks remaining",
+    "data": {
+      "ttf": 6.999049766591462
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608287,
+    "event_type": "DSL_ACTION",
+    "capsule_id": "cap_002",
+    "severity": "INFO",
+    "message": "Executing action: ESCALATE",
+    "data": {
+      "action": "ESCALATE",
+      "trigger": "drift_threshold"
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.76083,
+    "event_type": "ESCALATION",
+    "capsule_id": "cap_002",
+    "severity": "CRITICAL",
+    "message": "ESCALATION: Human-in-the-loop review required",
+    "data": {
+      "drift_velocity": 0.4286296140255908,
+      "ttf": 6.999049766591462,
+      "stability": 0.1427407719488184
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608318,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_002",
+    "severity": "INFO",
+    "message": "Trace level: L1 \u2192 L4",
+    "data": {
+      "old_level": 1,
+      "new_level": 4
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.760836,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 13.8 ticks remaining",
+    "data": {
+      "ttf": 13.751371539140326
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608376,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_003",
+    "severity": "INFO",
+    "message": "Trace level: L1 \u2192 L3",
+    "data": {
+      "old_level": 1,
+      "new_level": 3
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608411,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 13.8 ticks remaining",
+    "data": {
+      "ttf": 13.751371539140326
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608433,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_004",
+    "severity": "INFO",
+    "message": "Trace level: L1 \u2192 L3",
+    "data": {
+      "old_level": 1,
+      "new_level": 3
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608461,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 13.8 ticks remaining",
+    "data": {
+      "ttf": 13.751371539140326
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608476,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_005",
+    "severity": "INFO",
+    "message": "Trace level: L1 \u2192 L3",
+    "data": {
+      "old_level": 1,
+      "new_level": 3
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608504,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 13.8 ticks remaining",
+    "data": {
+      "ttf": 13.751371539140326
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608523,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_006",
+    "severity": "INFO",
+    "message": "Trace level: L1 \u2192 L3",
+    "data": {
+      "old_level": 1,
+      "new_level": 3
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608628,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7608664,
+    "event_type": "PROOF_GENERATED",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "ZK-SP Proof generated: proof_0030",
+    "data": {
+      "proof_id": "proof_0030",
+      "agents_covered": 7,
+      "tick": 30
+    }
+  },
+  {
+    "tick": 30,
+    "timestamp": 1765170983.7609003,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 30 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.56,
+      "avg_drift": 0.226
+    }
+  },
+  {
+    "tick": 31,
+    "timestamp": 1765170983.760905,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 31 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 31,
+    "timestamp": 1765170983.7609107,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 14.5 ticks remaining",
+    "data": {
+      "ttf": 14.475127935937188
+    }
+  },
+  {
+    "tick": 31,
+    "timestamp": 1765170983.7609174,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 14.5 ticks remaining",
+    "data": {
+      "ttf": 14.475127935937188
+    }
+  },
+  {
+    "tick": 31,
+    "timestamp": 1765170983.760921,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 14.5 ticks remaining",
+    "data": {
+      "ttf": 14.475127935937188
+    }
+  },
+  {
+    "tick": 31,
+    "timestamp": 1765170983.7609274,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 14.5 ticks remaining",
+    "data": {
+      "ttf": 14.475127935937188
+    }
+  },
+  {
+    "tick": 31,
+    "timestamp": 1765170983.7609377,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 31,
+    "timestamp": 1765170983.7609665,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 31 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.568,
+      "avg_drift": 0.221
+    }
+  },
+  {
+    "tick": 32,
+    "timestamp": 1765170983.760972,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 32 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 32,
+    "timestamp": 1765170983.7609775,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 15.2 ticks remaining",
+    "data": {
+      "ttf": 15.236976774670726
+    }
+  },
+  {
+    "tick": 32,
+    "timestamp": 1765170983.760981,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 15.2 ticks remaining",
+    "data": {
+      "ttf": 15.236976774670726
+    }
+  },
+  {
+    "tick": 32,
+    "timestamp": 1765170983.7609844,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 15.2 ticks remaining",
+    "data": {
+      "ttf": 15.236976774670726
+    }
+  },
+  {
+    "tick": 32,
+    "timestamp": 1765170983.7609878,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 15.2 ticks remaining",
+    "data": {
+      "ttf": 15.236976774670726
+    }
+  },
+  {
+    "tick": 32,
+    "timestamp": 1765170983.7609966,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 32,
+    "timestamp": 1765170983.761024,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 32 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.577,
+      "avg_drift": 0.217
+    }
+  },
+  {
+    "tick": 33,
+    "timestamp": 1765170983.761027,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 33 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 33,
+    "timestamp": 1765170983.761032,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 16.0 ticks remaining",
+    "data": {
+      "ttf": 16.038922920706028
+    }
+  },
+  {
+    "tick": 33,
+    "timestamp": 1765170983.761036,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 16.0 ticks remaining",
+    "data": {
+      "ttf": 16.038922920706028
+    }
+  },
+  {
+    "tick": 33,
+    "timestamp": 1765170983.761039,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 16.0 ticks remaining",
+    "data": {
+      "ttf": 16.038922920706028
+    }
+  },
+  {
+    "tick": 33,
+    "timestamp": 1765170983.7610424,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 16.0 ticks remaining",
+    "data": {
+      "ttf": 16.038922920706028
+    }
+  },
+  {
+    "tick": 33,
+    "timestamp": 1765170983.761052,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 33,
+    "timestamp": 1765170983.7610786,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 33 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.585,
+      "avg_drift": 0.213
+    }
+  },
+  {
+    "tick": 34,
+    "timestamp": 1765170983.761081,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 34 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 34,
+    "timestamp": 1765170983.7610855,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 16.9 ticks remaining",
+    "data": {
+      "ttf": 16.883076758637923
+    }
+  },
+  {
+    "tick": 34,
+    "timestamp": 1765170983.761089,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 16.9 ticks remaining",
+    "data": {
+      "ttf": 16.883076758637923
+    }
+  },
+  {
+    "tick": 34,
+    "timestamp": 1765170983.7610922,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 16.9 ticks remaining",
+    "data": {
+      "ttf": 16.883076758637923
+    }
+  },
+  {
+    "tick": 34,
+    "timestamp": 1765170983.7610953,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 16.9 ticks remaining",
+    "data": {
+      "ttf": 16.883076758637923
+    }
+  },
+  {
+    "tick": 34,
+    "timestamp": 1765170983.7611067,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 34,
+    "timestamp": 1765170983.761133,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 34 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.592,
+      "avg_drift": 0.209
+    }
+  },
+  {
+    "tick": 35,
+    "timestamp": 1765170983.7611358,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 35 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 35,
+    "timestamp": 1765170983.76114,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 17.8 ticks remaining",
+    "data": {
+      "ttf": 17.771659745934656
+    }
+  },
+  {
+    "tick": 35,
+    "timestamp": 1765170983.7611463,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 17.8 ticks remaining",
+    "data": {
+      "ttf": 17.771659745934656
+    }
+  },
+  {
+    "tick": 35,
+    "timestamp": 1765170983.7611496,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 17.8 ticks remaining",
+    "data": {
+      "ttf": 17.771659745934656
+    }
+  },
+  {
+    "tick": 35,
+    "timestamp": 1765170983.7611532,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 17.8 ticks remaining",
+    "data": {
+      "ttf": 17.771659745934656
+    }
+  },
+  {
+    "tick": 35,
+    "timestamp": 1765170983.761162,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 35,
+    "timestamp": 1765170983.7611907,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 35 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.599,
+      "avg_drift": 0.206
+    }
+  },
+  {
+    "tick": 36,
+    "timestamp": 1765170983.7611933,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 36 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 36,
+    "timestamp": 1765170983.7612007,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 18.7 ticks remaining",
+    "data": {
+      "ttf": 18.707010258878583
+    }
+  },
+  {
+    "tick": 36,
+    "timestamp": 1765170983.7612042,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 18.7 ticks remaining",
+    "data": {
+      "ttf": 18.707010258878583
+    }
+  },
+  {
+    "tick": 36,
+    "timestamp": 1765170983.7612078,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 18.7 ticks remaining",
+    "data": {
+      "ttf": 18.707010258878583
+    }
+  },
+  {
+    "tick": 36,
+    "timestamp": 1765170983.7612112,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 18.7 ticks remaining",
+    "data": {
+      "ttf": 18.707010258878583
+    }
+  },
+  {
+    "tick": 36,
+    "timestamp": 1765170983.7612205,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 36,
+    "timestamp": 1765170983.7612462,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 36 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.606,
+      "avg_drift": 0.202
+    }
+  },
+  {
+    "tick": 37,
+    "timestamp": 1765170983.7612486,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 37 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 37,
+    "timestamp": 1765170983.761253,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 19.7 ticks remaining",
+    "data": {
+      "ttf": 19.691589746187987
+    }
+  },
+  {
+    "tick": 37,
+    "timestamp": 1765170983.7612565,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 19.7 ticks remaining",
+    "data": {
+      "ttf": 19.691589746187987
+    }
+  },
+  {
+    "tick": 37,
+    "timestamp": 1765170983.7612598,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 19.7 ticks remaining",
+    "data": {
+      "ttf": 19.691589746187987
+    }
+  },
+  {
+    "tick": 37,
+    "timestamp": 1765170983.7612631,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 19.7 ticks remaining",
+    "data": {
+      "ttf": 19.691589746187987
+    }
+  },
+  {
+    "tick": 37,
+    "timestamp": 1765170983.761272,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 37,
+    "timestamp": 1765170983.7612975,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 37 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.612,
+      "avg_drift": 0.199
+    }
+  },
+  {
+    "tick": 38,
+    "timestamp": 1765170983.7613,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 38 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 38,
+    "timestamp": 1765170983.7613044,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 20.7 ticks remaining",
+    "data": {
+      "ttf": 20.72798920651367
+    }
+  },
+  {
+    "tick": 38,
+    "timestamp": 1765170983.7613077,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 20.7 ticks remaining",
+    "data": {
+      "ttf": 20.72798920651367
+    }
+  },
+  {
+    "tick": 38,
+    "timestamp": 1765170983.7613232,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 20.7 ticks remaining",
+    "data": {
+      "ttf": 20.72798920651367
+    }
+  },
+  {
+    "tick": 38,
+    "timestamp": 1765170983.7613266,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 20.7 ticks remaining",
+    "data": {
+      "ttf": 20.72798920651367
+    }
+  },
+  {
+    "tick": 38,
+    "timestamp": 1765170983.7613354,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 38,
+    "timestamp": 1765170983.761362,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 38 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.618,
+      "avg_drift": 0.196
+    }
+  },
+  {
+    "tick": 39,
+    "timestamp": 1765170983.761365,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 39 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 39,
+    "timestamp": 1765170983.7613697,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 21.8 ticks remaining",
+    "data": {
+      "ttf": 21.818936006856497
+    }
+  },
+  {
+    "tick": 39,
+    "timestamp": 1765170983.7613733,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 21.8 ticks remaining",
+    "data": {
+      "ttf": 21.818936006856497
+    }
+  },
+  {
+    "tick": 39,
+    "timestamp": 1765170983.7613766,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 21.8 ticks remaining",
+    "data": {
+      "ttf": 21.818936006856497
+    }
+  },
+  {
+    "tick": 39,
+    "timestamp": 1765170983.76138,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 21.8 ticks remaining",
+    "data": {
+      "ttf": 21.818936006856497
+    }
+  },
+  {
+    "tick": 39,
+    "timestamp": 1765170983.761389,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 39,
+    "timestamp": 1765170983.7614164,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 39 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.624,
+      "avg_drift": 0.193
+    }
+  },
+  {
+    "tick": 40,
+    "timestamp": 1765170983.7614195,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 40 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 40,
+    "timestamp": 1765170983.761424,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 23.0 ticks remaining",
+    "data": {
+      "ttf": 22.96730105984895
+    }
+  },
+  {
+    "tick": 40,
+    "timestamp": 1765170983.761428,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 23.0 ticks remaining",
+    "data": {
+      "ttf": 22.96730105984895
+    }
+  },
+  {
+    "tick": 40,
+    "timestamp": 1765170983.7614434,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 23.0 ticks remaining",
+    "data": {
+      "ttf": 22.96730105984895
+    }
+  },
+  {
+    "tick": 40,
+    "timestamp": 1765170983.7614472,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 23.0 ticks remaining",
+    "data": {
+      "ttf": 22.96730105984895
+    }
+  },
+  {
+    "tick": 40,
+    "timestamp": 1765170983.761459,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 40,
+    "timestamp": 1765170983.761462,
+    "event_type": "PROOF_GENERATED",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "ZK-SP Proof generated: proof_0040",
+    "data": {
+      "proof_id": "proof_0040",
+      "agents_covered": 7,
+      "tick": 40
+    }
+  },
+  {
+    "tick": 40,
+    "timestamp": 1765170983.7614937,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 40 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.63,
+      "avg_drift": 0.191
+    }
+  },
+  {
+    "tick": 41,
+    "timestamp": 1765170983.7614968,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 41 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 41,
+    "timestamp": 1765170983.7615018,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 24.2 ticks remaining",
+    "data": {
+      "ttf": 24.17610637878837
+    }
+  },
+  {
+    "tick": 41,
+    "timestamp": 1765170983.7615058,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 24.2 ticks remaining",
+    "data": {
+      "ttf": 24.17610637878837
+    }
+  },
+  {
+    "tick": 41,
+    "timestamp": 1765170983.7615094,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 24.2 ticks remaining",
+    "data": {
+      "ttf": 24.17610637878837
+    }
+  },
+  {
+    "tick": 41,
+    "timestamp": 1765170983.7615128,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 24.2 ticks remaining",
+    "data": {
+      "ttf": 24.17610637878837
+    }
+  },
+  {
+    "tick": 41,
+    "timestamp": 1765170983.7615225,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 41,
+    "timestamp": 1765170983.7615507,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 41 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.635,
+      "avg_drift": 0.188
+    }
+  },
+  {
+    "tick": 42,
+    "timestamp": 1765170983.7615538,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 42 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 42,
+    "timestamp": 1765170983.7615583,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 25.4 ticks remaining",
+    "data": {
+      "ttf": 25.448533030303544
+    }
+  },
+  {
+    "tick": 42,
+    "timestamp": 1765170983.7615623,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 25.4 ticks remaining",
+    "data": {
+      "ttf": 25.448533030303544
+    }
+  },
+  {
+    "tick": 42,
+    "timestamp": 1765170983.7615662,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 25.4 ticks remaining",
+    "data": {
+      "ttf": 25.448533030303544
+    }
+  },
+  {
+    "tick": 42,
+    "timestamp": 1765170983.7615695,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 25.4 ticks remaining",
+    "data": {
+      "ttf": 25.448533030303544
+    }
+  },
+  {
+    "tick": 42,
+    "timestamp": 1765170983.761582,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 42,
+    "timestamp": 1765170983.7616105,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 42 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.64,
+      "avg_drift": 0.185
+    }
+  },
+  {
+    "tick": 43,
+    "timestamp": 1765170983.7616131,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 43 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 43,
+    "timestamp": 1765170983.7616181,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 26.8 ticks remaining",
+    "data": {
+      "ttf": 26.787929505582678
+    }
+  },
+  {
+    "tick": 43,
+    "timestamp": 1765170983.761622,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 26.8 ticks remaining",
+    "data": {
+      "ttf": 26.787929505582678
+    }
+  },
+  {
+    "tick": 43,
+    "timestamp": 1765170983.7616258,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 26.8 ticks remaining",
+    "data": {
+      "ttf": 26.787929505582678
+    }
+  },
+  {
+    "tick": 43,
+    "timestamp": 1765170983.7616293,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 26.8 ticks remaining",
+    "data": {
+      "ttf": 26.787929505582678
+    }
+  },
+  {
+    "tick": 43,
+    "timestamp": 1765170983.761639,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 43,
+    "timestamp": 1765170983.7616725,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 43 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.645,
+      "avg_drift": 0.183
+    }
+  },
+  {
+    "tick": 44,
+    "timestamp": 1765170983.7616756,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 44 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 44,
+    "timestamp": 1765170983.7616806,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 28.2 ticks remaining",
+    "data": {
+      "ttf": 28.197820532192296
+    }
+  },
+  {
+    "tick": 44,
+    "timestamp": 1765170983.7616844,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 28.2 ticks remaining",
+    "data": {
+      "ttf": 28.197820532192296
+    }
+  },
+  {
+    "tick": 44,
+    "timestamp": 1765170983.7616906,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 28.2 ticks remaining",
+    "data": {
+      "ttf": 28.197820532192296
+    }
+  },
+  {
+    "tick": 44,
+    "timestamp": 1765170983.7616942,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 28.2 ticks remaining",
+    "data": {
+      "ttf": 28.197820532192296
+    }
+  },
+  {
+    "tick": 44,
+    "timestamp": 1765170983.7617054,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 44,
+    "timestamp": 1765170983.7617388,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 44 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.649,
+      "avg_drift": 0.181
+    }
+  },
+  {
+    "tick": 45,
+    "timestamp": 1765170983.7617419,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 45 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 45,
+    "timestamp": 1765170983.7617466,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_003",
+    "severity": "WARNING",
+    "message": "TTF Warning: 29.7 ticks remaining",
+    "data": {
+      "ttf": 29.6819163496761
+    }
+  },
+  {
+    "tick": 45,
+    "timestamp": 1765170983.761753,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_004",
+    "severity": "WARNING",
+    "message": "TTF Warning: 29.7 ticks remaining",
+    "data": {
+      "ttf": 29.6819163496761
+    }
+  },
+  {
+    "tick": 45,
+    "timestamp": 1765170983.7617567,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_005",
+    "severity": "WARNING",
+    "message": "TTF Warning: 29.7 ticks remaining",
+    "data": {
+      "ttf": 29.6819163496761
+    }
+  },
+  {
+    "tick": 45,
+    "timestamp": 1765170983.7617602,
+    "event_type": "TTF_WARNING",
+    "capsule_id": "cap_006",
+    "severity": "WARNING",
+    "message": "TTF Warning: 29.7 ticks remaining",
+    "data": {
+      "ttf": 29.6819163496761
+    }
+  },
+  {
+    "tick": 45,
+    "timestamp": 1765170983.7617702,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 45,
+    "timestamp": 1765170983.7617996,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 45 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.653,
+      "avg_drift": 0.179
+    }
+  },
+  {
+    "tick": 46,
+    "timestamp": 1765170983.7618024,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 46 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 46,
+    "timestamp": 1765170983.761808,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_003",
+    "severity": "INFO",
+    "message": "Trace level: L3 \u2192 L2",
+    "data": {
+      "old_level": 3,
+      "new_level": 2
+    }
+  },
+  {
+    "tick": 46,
+    "timestamp": 1765170983.7618117,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_004",
+    "severity": "INFO",
+    "message": "Trace level: L3 \u2192 L2",
+    "data": {
+      "old_level": 3,
+      "new_level": 2
+    }
+  },
+  {
+    "tick": 46,
+    "timestamp": 1765170983.761815,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_005",
+    "severity": "INFO",
+    "message": "Trace level: L3 \u2192 L2",
+    "data": {
+      "old_level": 3,
+      "new_level": 2
+    }
+  },
+  {
+    "tick": 46,
+    "timestamp": 1765170983.7618184,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_006",
+    "severity": "INFO",
+    "message": "Trace level: L3 \u2192 L2",
+    "data": {
+      "old_level": 3,
+      "new_level": 2
+    }
+  },
+  {
+    "tick": 46,
+    "timestamp": 1765170983.7618306,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 46,
+    "timestamp": 1765170983.7618587,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 46 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.657,
+      "avg_drift": 0.177
+    }
+  },
+  {
+    "tick": 47,
+    "timestamp": 1765170983.7618616,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 47 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 47,
+    "timestamp": 1765170983.7618792,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 47,
+    "timestamp": 1765170983.76191,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 47 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.661,
+      "avg_drift": 0.175
+    }
+  },
+  {
+    "tick": 48,
+    "timestamp": 1765170983.7619126,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 48 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 48,
+    "timestamp": 1765170983.761929,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 48,
+    "timestamp": 1765170983.761953,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 48 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.665,
+      "avg_drift": 0.173
+    }
+  },
+  {
+    "tick": 49,
+    "timestamp": 1765170983.7619553,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 49 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 49,
+    "timestamp": 1765170983.7619712,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 49,
+    "timestamp": 1765170983.7619948,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 49 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.668,
+      "avg_drift": 0.171
+    }
+  },
+  {
+    "tick": 50,
+    "timestamp": 1765170983.7619975,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 50 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 50,
+    "timestamp": 1765170983.7620134,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 50,
+    "timestamp": 1765170983.7620165,
+    "event_type": "PROOF_GENERATED",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "ZK-SP Proof generated: proof_0050",
+    "data": {
+      "proof_id": "proof_0050",
+      "agents_covered": 7,
+      "tick": 50
+    }
+  },
+  {
+    "tick": 50,
+    "timestamp": 1765170983.7620409,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 50 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.672,
+      "avg_drift": 0.17
+    }
+  },
+  {
+    "tick": 51,
+    "timestamp": 1765170983.7620437,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 51 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 51,
+    "timestamp": 1765170983.762059,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 51,
+    "timestamp": 1765170983.7620854,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 51 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.675,
+      "avg_drift": 0.168
+    }
+  },
+  {
+    "tick": 52,
+    "timestamp": 1765170983.7620876,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 52 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 52,
+    "timestamp": 1765170983.762103,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 52,
+    "timestamp": 1765170983.7621264,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 52 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.678,
+      "avg_drift": 0.166
+    }
+  },
+  {
+    "tick": 53,
+    "timestamp": 1765170983.7621286,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 53 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 53,
+    "timestamp": 1765170983.762144,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 53,
+    "timestamp": 1765170983.7621667,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 53 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.681,
+      "avg_drift": 0.165
+    }
+  },
+  {
+    "tick": 54,
+    "timestamp": 1765170983.7621694,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 54 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 54,
+    "timestamp": 1765170983.7621849,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 54,
+    "timestamp": 1765170983.7622073,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 54 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.683,
+      "avg_drift": 0.164
+    }
+  },
+  {
+    "tick": 55,
+    "timestamp": 1765170983.76221,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 55 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 55,
+    "timestamp": 1765170983.7622259,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 55,
+    "timestamp": 1765170983.7622488,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 55 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.686,
+      "avg_drift": 0.162
+    }
+  },
+  {
+    "tick": 56,
+    "timestamp": 1765170983.762251,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 56 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 56,
+    "timestamp": 1765170983.762267,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 56,
+    "timestamp": 1765170983.7622898,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 56 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.688,
+      "avg_drift": 0.161
+    }
+  },
+  {
+    "tick": 57,
+    "timestamp": 1765170983.762292,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 57 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 57,
+    "timestamp": 1765170983.7623081,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 57,
+    "timestamp": 1765170983.7623417,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 57 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.691,
+      "avg_drift": 0.16
+    }
+  },
+  {
+    "tick": 58,
+    "timestamp": 1765170983.7623441,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 58 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 58,
+    "timestamp": 1765170983.7623665,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 58,
+    "timestamp": 1765170983.7623944,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 58 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.693,
+      "avg_drift": 0.159
+    }
+  },
+  {
+    "tick": 59,
+    "timestamp": 1765170983.7623973,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 59 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 59,
+    "timestamp": 1765170983.7624047,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_003",
+    "severity": "INFO",
+    "message": "Trace level: L2 \u2192 L1",
+    "data": {
+      "old_level": 2,
+      "new_level": 1
+    }
+  },
+  {
+    "tick": 59,
+    "timestamp": 1765170983.7624087,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_004",
+    "severity": "INFO",
+    "message": "Trace level: L2 \u2192 L1",
+    "data": {
+      "old_level": 2,
+      "new_level": 1
+    }
+  },
+  {
+    "tick": 59,
+    "timestamp": 1765170983.7624118,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_005",
+    "severity": "INFO",
+    "message": "Trace level: L2 \u2192 L1",
+    "data": {
+      "old_level": 2,
+      "new_level": 1
+    }
+  },
+  {
+    "tick": 59,
+    "timestamp": 1765170983.762415,
+    "event_type": "TRACE_LEVEL_CHANGE",
+    "capsule_id": "cap_006",
+    "severity": "INFO",
+    "message": "Trace level: L2 \u2192 L1",
+    "data": {
+      "old_level": 2,
+      "new_level": 1
+    }
+  },
+  {
+    "tick": 59,
+    "timestamp": 1765170983.7624228,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 59,
+    "timestamp": 1765170983.7624478,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 59 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.695,
+      "avg_drift": 0.158
+    }
+  },
+  {
+    "tick": 60,
+    "timestamp": 1765170983.7624505,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 60 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 60,
+    "timestamp": 1765170983.7624662,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 60,
+    "timestamp": 1765170983.7624693,
+    "event_type": "PROOF_GENERATED",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "ZK-SP Proof generated: proof_0060",
+    "data": {
+      "proof_id": "proof_0060",
+      "agents_covered": 7,
+      "tick": 60
+    }
+  },
+  {
+    "tick": 60,
+    "timestamp": 1765170983.7625008,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 60 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.697,
+      "avg_drift": 0.157
+    }
+  },
+  {
+    "tick": 61,
+    "timestamp": 1765170983.7625034,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 61 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 61,
+    "timestamp": 1765170983.7625198,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 61,
+    "timestamp": 1765170983.7625437,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 61 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.699,
+      "avg_drift": 0.156
+    }
+  },
+  {
+    "tick": 62,
+    "timestamp": 1765170983.762546,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 62 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 62,
+    "timestamp": 1765170983.7625618,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 62,
+    "timestamp": 1765170983.762585,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 62 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.7,
+      "avg_drift": 0.155
+    }
+  },
+  {
+    "tick": 63,
+    "timestamp": 1765170983.762587,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 63 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 63,
+    "timestamp": 1765170983.7626023,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 63,
+    "timestamp": 1765170983.7626252,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 63 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.702,
+      "avg_drift": 0.154
+    }
+  },
+  {
+    "tick": 64,
+    "timestamp": 1765170983.7626276,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 64 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 64,
+    "timestamp": 1765170983.7626433,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 64,
+    "timestamp": 1765170983.762671,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 64 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.704,
+      "avg_drift": 0.154
+    }
+  },
+  {
+    "tick": 65,
+    "timestamp": 1765170983.7626734,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 65 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 65,
+    "timestamp": 1765170983.762689,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 65,
+    "timestamp": 1765170983.762712,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 65 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.705,
+      "avg_drift": 0.153
+    }
+  },
+  {
+    "tick": 66,
+    "timestamp": 1765170983.7627144,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 66 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 66,
+    "timestamp": 1765170983.7627292,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 66,
+    "timestamp": 1765170983.7627518,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 66 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.707,
+      "avg_drift": 0.152
+    }
+  },
+  {
+    "tick": 67,
+    "timestamp": 1765170983.7627542,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 67 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 67,
+    "timestamp": 1765170983.7627697,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 67,
+    "timestamp": 1765170983.7628276,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 67 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.708,
+      "avg_drift": 0.151
+    }
+  },
+  {
+    "tick": 68,
+    "timestamp": 1765170983.7628303,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 68 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 68,
+    "timestamp": 1765170983.7628465,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 68,
+    "timestamp": 1765170983.7628703,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 68 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.709,
+      "avg_drift": 0.151
+    }
+  },
+  {
+    "tick": 69,
+    "timestamp": 1765170983.762873,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 69 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 69,
+    "timestamp": 1765170983.762889,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 69,
+    "timestamp": 1765170983.7629144,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 69 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.711,
+      "avg_drift": 0.15
+    }
+  },
+  {
+    "tick": 70,
+    "timestamp": 1765170983.7629168,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 70 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 70,
+    "timestamp": 1765170983.7629328,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 70,
+    "timestamp": 1765170983.7629356,
+    "event_type": "PROOF_GENERATED",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "ZK-SP Proof generated: proof_0070",
+    "data": {
+      "proof_id": "proof_0070",
+      "agents_covered": 7,
+      "tick": 70
+    }
+  },
+  {
+    "tick": 70,
+    "timestamp": 1765170983.7629592,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 70 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.712,
+      "avg_drift": 0.149
+    }
+  },
+  {
+    "tick": 71,
+    "timestamp": 1765170983.7629619,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 71 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 71,
+    "timestamp": 1765170983.7629805,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 71,
+    "timestamp": 1765170983.7630048,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 71 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.713,
+      "avg_drift": 0.149
+    }
+  },
+  {
+    "tick": 72,
+    "timestamp": 1765170983.7630072,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 72 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 72,
+    "timestamp": 1765170983.7630248,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 72,
+    "timestamp": 1765170983.7630486,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 72 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.714,
+      "avg_drift": 0.148
+    }
+  },
+  {
+    "tick": 73,
+    "timestamp": 1765170983.7630513,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 73 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 73,
+    "timestamp": 1765170983.7630672,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 73,
+    "timestamp": 1765170983.7630904,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 73 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.715,
+      "avg_drift": 0.148
+    }
+  },
+  {
+    "tick": 74,
+    "timestamp": 1765170983.7630928,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 74 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 74,
+    "timestamp": 1765170983.7631085,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 74,
+    "timestamp": 1765170983.7631316,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 74 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.716,
+      "avg_drift": 0.147
+    }
+  },
+  {
+    "tick": 75,
+    "timestamp": 1765170983.763134,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 75 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 75,
+    "timestamp": 1765170983.7631497,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 75,
+    "timestamp": 1765170983.7631729,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 75 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.717,
+      "avg_drift": 0.147
+    }
+  },
+  {
+    "tick": 76,
+    "timestamp": 1765170983.7631755,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 76 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 76,
+    "timestamp": 1765170983.7631905,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 76,
+    "timestamp": 1765170983.7632134,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 76 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.718,
+      "avg_drift": 0.147
+    }
+  },
+  {
+    "tick": 77,
+    "timestamp": 1765170983.7632158,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 77 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 77,
+    "timestamp": 1765170983.7632313,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 77,
+    "timestamp": 1765170983.7632542,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 77 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.719,
+      "avg_drift": 0.146
+    }
+  },
+  {
+    "tick": 78,
+    "timestamp": 1765170983.763259,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 78 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 78,
+    "timestamp": 1765170983.7632747,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 78,
+    "timestamp": 1765170983.763298,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 78 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.719,
+      "avg_drift": 0.146
+    }
+  },
+  {
+    "tick": 79,
+    "timestamp": 1765170983.7633004,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 79 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 79,
+    "timestamp": 1765170983.7633278,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 79,
+    "timestamp": 1765170983.7633533,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 79 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.72,
+      "avg_drift": 0.145
+    }
+  },
+  {
+    "tick": 80,
+    "timestamp": 1765170983.7633557,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 80 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 80,
+    "timestamp": 1765170983.7633715,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 80,
+    "timestamp": 1765170983.7633743,
+    "event_type": "PROOF_GENERATED",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "ZK-SP Proof generated: proof_0080",
+    "data": {
+      "proof_id": "proof_0080",
+      "agents_covered": 7,
+      "tick": 80
+    }
+  },
+  {
+    "tick": 80,
+    "timestamp": 1765170983.7633984,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 80 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.721,
+      "avg_drift": 0.145
+    }
+  },
+  {
+    "tick": 81,
+    "timestamp": 1765170983.763401,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 81 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 81,
+    "timestamp": 1765170983.7634194,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 81,
+    "timestamp": 1765170983.7634475,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 81 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.722,
+      "avg_drift": 0.145
+    }
+  },
+  {
+    "tick": 82,
+    "timestamp": 1765170983.7634501,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 82 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 82,
+    "timestamp": 1765170983.7634666,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 82,
+    "timestamp": 1765170983.76349,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 82 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.722,
+      "avg_drift": 0.144
+    }
+  },
+  {
+    "tick": 83,
+    "timestamp": 1765170983.7634923,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 83 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 83,
+    "timestamp": 1765170983.7635076,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 83,
+    "timestamp": 1765170983.76353,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 83 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.723,
+      "avg_drift": 0.144
+    }
+  },
+  {
+    "tick": 84,
+    "timestamp": 1765170983.7635324,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 84 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 84,
+    "timestamp": 1765170983.7635481,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 84,
+    "timestamp": 1765170983.7635705,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 84 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.723,
+      "avg_drift": 0.144
+    }
+  },
+  {
+    "tick": 85,
+    "timestamp": 1765170983.763573,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 85 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 85,
+    "timestamp": 1765170983.763589,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 85,
+    "timestamp": 1765170983.7636116,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 85 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.724,
+      "avg_drift": 0.143
+    }
+  },
+  {
+    "tick": 86,
+    "timestamp": 1765170983.7636137,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 86 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 86,
+    "timestamp": 1765170983.7636287,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 86,
+    "timestamp": 1765170983.763658,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 86 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.724,
+      "avg_drift": 0.143
+    }
+  },
+  {
+    "tick": 87,
+    "timestamp": 1765170983.7636604,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 87 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 87,
+    "timestamp": 1765170983.763677,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 87,
+    "timestamp": 1765170983.7637012,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 87 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.725,
+      "avg_drift": 0.143
+    }
+  },
+  {
+    "tick": 88,
+    "timestamp": 1765170983.7637036,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 88 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 88,
+    "timestamp": 1765170983.7637217,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 88,
+    "timestamp": 1765170983.763745,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 88 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.725,
+      "avg_drift": 0.143
+    }
+  },
+  {
+    "tick": 89,
+    "timestamp": 1765170983.7637477,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 89 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 89,
+    "timestamp": 1765170983.763765,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 89,
+    "timestamp": 1765170983.7637885,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 89 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.726,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 90,
+    "timestamp": 1765170983.7637908,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 90 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 90,
+    "timestamp": 1765170983.7638066,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 90,
+    "timestamp": 1765170983.763809,
+    "event_type": "PROOF_GENERATED",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "ZK-SP Proof generated: proof_0090",
+    "data": {
+      "proof_id": "proof_0090",
+      "agents_covered": 7,
+      "tick": 90
+    }
+  },
+  {
+    "tick": 90,
+    "timestamp": 1765170983.763832,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 90 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.726,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 91,
+    "timestamp": 1765170983.7638345,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 91 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 91,
+    "timestamp": 1765170983.763851,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 91,
+    "timestamp": 1765170983.7638783,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 91 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.727,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 92,
+    "timestamp": 1765170983.7638807,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 92 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 92,
+    "timestamp": 1765170983.763897,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 92,
+    "timestamp": 1765170983.7639217,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 92 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.727,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 93,
+    "timestamp": 1765170983.763924,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 93 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 93,
+    "timestamp": 1765170983.7639399,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 93,
+    "timestamp": 1765170983.7639623,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 93 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.727,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 94,
+    "timestamp": 1765170983.7639647,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 94 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 94,
+    "timestamp": 1765170983.7639804,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 94,
+    "timestamp": 1765170983.764003,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 94 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.727,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 95,
+    "timestamp": 1765170983.7640054,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 95 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 95,
+    "timestamp": 1765170983.7640212,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 95,
+    "timestamp": 1765170983.7640438,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 95 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.727,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 96,
+    "timestamp": 1765170983.7640462,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 96 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 96,
+    "timestamp": 1765170983.7640612,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 96,
+    "timestamp": 1765170983.7640836,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 96 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.727,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 97,
+    "timestamp": 1765170983.764086,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 97 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 97,
+    "timestamp": 1765170983.764101,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 97,
+    "timestamp": 1765170983.7641234,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 97 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.727,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 98,
+    "timestamp": 1765170983.7641256,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 98 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 98,
+    "timestamp": 1765170983.7641413,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 98,
+    "timestamp": 1765170983.7641678,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 98 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.727,
+      "avg_drift": 0.142
+    }
+  },
+  {
+    "tick": 99,
+    "timestamp": 1765170983.7641702,
+    "event_type": "TICK_START",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 99 Start ---",
+    "data": {
+      "active_capsules": 7
+    }
+  },
+  {
+    "tick": 99,
+    "timestamp": 1765170983.7641854,
+    "event_type": "CONSENSUS_UPDATE",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "Consensus update: 7 active, 3 quarantined",
+    "data": {
+      "active_count": 7,
+      "quarantined_count": 3,
+      "quarantined_ids": [
+        "cap_000",
+        "cap_001",
+        "cap_002"
+      ]
+    }
+  },
+  {
+    "tick": 99,
+    "timestamp": 1765170983.764208,
+    "event_type": "TICK_END",
+    "capsule_id": null,
+    "severity": "INFO",
+    "message": "--- Tick 99 End ---",
+    "data": {
+      "active": 7,
+      "quarantined": 3,
+      "avg_stability": 0.727,
+      "avg_drift": 0.142
+    }
+  }
+]

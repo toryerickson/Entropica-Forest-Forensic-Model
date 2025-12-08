@@ -1,20 +1,97 @@
-# EFM Booklet 4: Entropica Forensic Model
+# EFM Booklet 4: Cognitive Genealogy and Distributed Swarm Autonomy
 
-## Forest Forensic Model 
+**Version 4.2 ICONIC** | Research Prototype with Production Intent
 
-This is the Entropica Forensic Model Booklet 4, including:
+The Entropica Forensic Model (EFM) is a framework for governing distributed AI systems through semantic stability, hereditary trust, and emergent purpose creation.
 
-1. **Forest Architecture** - Autonomous purpose creation (Level 5 Emergent)
-2. **Swarm Ecosystem** - Cross-trunk correlation and webbing
-3. **Production Core** - Byzantine consensus, semantic embeddings, validation
-4. **Integration Layer** - SCD, drift contagion, DSL interpreter, failover
-5. **Operational Layer** - FastAPI orchestrator, deployment configs
-6. **Security Layer** - Threat model, ZK-SP proofs
-7. **UI/UX Layer** - Swarm Command Interface specification
+> **Note**: This is a research prototype demonstrating architectural feasibility. Production deployment requires the hardening steps outlined in Appendix H.
 
 ---
 
-## 📊 Final Benchmark Results
+## 🚀 Quick Start: Benchmark Runner
+
+```bash
+cd src
+python run_forest.py --preset genesis
+```
+
+**Expected Output:**
+```
+============================================================
+EFM FOREST BENCHMARK
+============================================================
+Ticks: 100
+Initial Budget: 500.0
+Genesis Threshold: 150.0
+============================================================
+
+[T0001] GENESIS: Spawned 50 initial agents
+[T0021] SPAWN: ROOT.003 spawned ROOT.003.000
+[T0045] DATA_WINTER: Data winter began (severity=0.5)
+...
+
+============================================================
+BENCHMARK RESULTS
+============================================================
+  Ticks Completed: 100
+  Total Spawned: 119
+  Active Agents: 87
+  Winters Survived: 3
+  Avg SCI: 0.92 ✅ (min: 0.80)
+  Avg FDR: 0.95 ✅ (min: 0.90)
+
+🎉 BENCHMARK PASSED
+============================================================
+```
+
+## 🧪 Benchmark Presets
+
+| Preset | Description | Command |
+|--------|-------------|---------|
+| `genesis` | Standard 50-agent spawn, validates FDR=1.0, SCI>0.8 | `--preset genesis` |
+| `hostile` | Adversarial drift injection stress test | `--preset hostile` |
+| `winter` | Data winter (resource scarcity) survival | `--preset winter` |
+| `hyperscale` | 1M agent simulation | `--preset hyperscale` |
+
+```bash
+# Custom benchmark
+python run_forest.py --agents 100 --ticks 200 --seed 42 --output my_run
+```
+
+## ⚙️ Configuration
+
+All parameters centralized in `efm_config.py`:
+
+```python
+from efm_config import EFMConfig as cfg
+
+if branch.resource_budget > cfg.GENESIS_THRESHOLD:
+    # Reproduce
+```
+
+| Parameter | Booklet Term | Default | Description |
+|-----------|--------------|---------|-------------|
+| `INIT_BUDGET` | B_entropy | 500.0 | Starting entropy |
+| `GENESIS_THRESHOLD` | - | 150.0 | Reproduction cutoff |
+| `MIN_SCI` | SCI | 0.80 | Stability threshold |
+| `MIN_FDR` | τ_FDR | 0.90 | Discovery rate threshold |
+| `PRUNE_THRESHOLD` | τ_BIM | 0.10 | Health before pruning |
+| `CONSENSUS_QUORUM` | - | 0.75 | Agreement threshold |
+
+## 📁 Output Files
+
+After benchmark, find in `benchmark_output/`:
+
+| File | Description |
+|------|-------------|
+| `tick_log.json` | Per-tick agent states (reproducible diagrams) |
+| `events.json` | Significant events (spawns, prunes, winters) |
+| `genealogy.json` | Full lineage tree |
+| `results.json` | Summary metrics |
+
+---
+
+## 📊 Key Achievements
 
 ### Forest Architecture (150 Ticks)
 | Metric | Value |
@@ -210,6 +287,13 @@ efm-forest-final/
 │   ├── swarm_ecosystem.py       # Cross-trunk correlation
 │   ├── forest_architecture.py   # Purpose creation
 │   └── ...
+├── docs/                   # Documentation (NEW)
+│   ├── EFMCORE_API_SPEC.md      # Full API specification
+│   ├── USE_CASE_TEMPLATES.md    # Deployment templates (4 use cases)
+│   ├── RECOVERY_PROTOCOLS.md    # Failover and recovery procedures
+│   ├── DCTM_PERFORMANCE_PLAN.md # Simulation and metrics plan
+│   ├── Efmcore_Api_Spec.pdf     # API spec (PDF format)
+│   └── deployment_topology.png  # Architecture diagram
 ├── deploy/                 # Deployment configurations
 │   ├── docker-compose.yml
 │   ├── Dockerfile.orchestrator
@@ -221,13 +305,68 @@ efm-forest-final/
 │       ├── orchestrator-service.yaml
 │       ├── hpa.yaml
 │       └── agent-sidecar-config.yaml
-├── latex/                  # Documentation
+├── latex/                  # Technical documentation
 │   ├── booklet4.tex       # Source (44 pages)
 │   ├── booklet4.pdf       # Compiled document
 │   └── *.png              # Figures (9 images)
 ├── figures/               # Visualization outputs
 └── README.md              # This file
 ```
+
+---
+
+## 📚 Documentation Suite
+
+| Document | Description | Format |
+|----------|-------------|--------|
+| **EFMCORE_API_SPEC.md** | Complete API reference with types, methods, examples | Markdown |
+| **USE_CASE_TEMPLATES.md** | Deployment templates for 4 scenarios | Markdown |
+| **RECOVERY_PROTOCOLS.md** | Failover, recovery, and incident response | Markdown |
+| **DCTM_PERFORMANCE_PLAN.md** | Simulation harness and metrics | Markdown |
+| **GARDENER_PROTOCOL.md** | Semantic zoom interface for 1M agents | Markdown |
+| **deployment_topology.png** | System architecture diagram | PNG |
+| **booklet4.pdf** | 44-page technical specification | PDF |
+
+---
+
+## 📜 Simulation Logs
+
+The package includes **tick-by-tick execution logs** demonstrating:
+- Drift injection and detection
+- CAC trace level adjustments
+- DSL action execution (HEAL, QUARANTINE, ESCALATE)
+- Lineage contagion propagation
+- ZK-SP proof generation
+
+**Log Files**:
+- `logs/simulation_output.txt` - Human-readable (411 entries)
+- `logs/simulation_output.json` - Machine-readable
+
+**Sample Output**:
+```
+[T0030] [WARNING ] [DRIFT_DETECTED      ] SYSTEM       | !!! DRIFT INJECTION EVENT !!!
+[T0030] [CRITICAL] [DRIFT_DETECTED      ] cap_000      | Drift injected: velocity=0.483
+[T0030] [INFO    ] [DSL_ACTION          ] cap_000      | Executing action: HEAL
+[T0030] [WARNING ] [HEAL_FAILURE        ] cap_000      | Heal FAILED: escalating to quarantine
+[T0030] [WARNING ] [QUARANTINE          ] cap_000      | Capsule QUARANTINED (count: 1)
+[T0030] [WARNING ] [LINEAGE_EVENT       ] cap_000      | Checking lineage contagion: 5 children
+[T0030] [CRITICAL] [ESCALATION          ] cap_000      | ESCALATION: Human-in-the-loop review required
+```
+
+---
+
+## 🌳 The Gardener Protocol (Million-Agent Interface)
+
+For swarms exceeding 100,000 agents, the interface transforms from **dashboard** to **biosphere**:
+
+| Scale | View | Human Role |
+|-------|------|------------|
+| **Canopy** (1M) | Global health heatmap | Terraform, set climate |
+| **Trunk** (10K) | Phylogenetic tree | Prune, graft, fertilize |
+| **Branch** (100) | Consensus voting | Investigate, override |
+| **Leaf** (1) | Full diagnostic | Debug, rebuild, release |
+
+See `docs/GARDENER_PROTOCOL.md` for complete specification.
 
 ---
 
@@ -271,20 +410,48 @@ T. Stanford Erickson / Entropica SPC / Yology Research Division, 2025.
 | Hardware Reqs | ✅ TPM/FPGA/ASIC |
 | Docker/K8s | ✅ Deployment ready |
 | Documentation | ✅ 44 pages |
+| **API Specification** | ✅ **Full spec with types** |
+| **Use Case Templates** | ✅ **4 deployment scenarios** |
+| **Recovery Protocols** | ✅ **Failover procedures** |
+| **Performance Plan** | ✅ **Simulation harness** |
+| **Deployment Diagram** | ✅ **Architecture visual** |
+| **Simulation Logs** | ✅ **411 tick-by-tick entries** |
+| **Gardener Protocol** | ✅ **Million-agent interface** |
 
 ---
 
-## 🏆 THE VISION REALIZED
+## 🏆 RESEARCH STATUS
 
-This system:
+This system demonstrates:
 - ✅ Decides what to explore (anomaly detection)
 - ✅ Creates its own goals (sub-mission generation)
 - ✅ Spawns new entities with evolved purposes (forest seeding)
 - ✅ Builds knowledge across generations (multi-generational growth)
 - ✅ Defeats decay through regeneration (sustainability ratio 1.84)
 - ✅ Correlates patterns across swarms (100K+ correlations)
-- ✅ Achieves consensus despite adversaries (Byzantine tolerance)
+- ✅ Achieves consensus despite adversaries (Byzantine-inspired tolerance)
 - ✅ Validates for production deployment (human-in-the-loop)
-- ✅ Defends against all known attacks (8-vector threat model)
+- ✅ Defends against known attacks (8-vector threat model)
 - ✅ Provides operator visibility (UI/UX specification)
 - ✅ Scales with hardware acceleration (TPM/FPGA/ASIC)
+
+**Status: Research prototype with production intent. Architectural feasibility demonstrated under SOE conditions.**
+
+---
+
+## 📜 Document Status
+
+This booklet introduces the EFM in its **advanced prototyping phase**:
+
+| Component | Implementation Status |
+|-----------|----------------------|
+| ZK-SP | API-specified, stub implementations |
+| Consensus | Byzantine-inspired (not formal PBFT) |
+| BCI Dashboard | Appendix G prototype |
+| Cryptography | Placeholder signatures |
+
+All benchmark results are from the **Simulated Operational Environment (SOE)**. Production deployment requires hardening steps in Appendix H.
+
+---
+
+*Entropica SPC / Yology Research Division, 2025*

@@ -94,8 +94,10 @@
 \vspace{1cm}
 {\huge\bfseries Cognitive Genealogy and\\Distributed Swarm Autonomy\par}
 \vspace{2cm}
+
 {\LARGE T. Stanford Erickson\par}
-\vspace{0.5cm}
+\vspace{2cm}
+
 {\large Version 1.0\par}
 \vspace{0.5cm}
 {\large December 2025\par}
@@ -127,6 +129,30 @@ Orphan Protocol & $\rightarrow$ & Lost Capsule Detection \& Recovery \\
 \begin{abstract}
 Booklet 4 completes the EFM architecture by extending governance from single agents to distributed swarms. While Booklets 1--3 established detection, reconstruction, and predictive governance for individual AI systems, real-world deployments require coordination across thousands of autonomous agents. We introduce four critical extensions: the \textbf{Decentralized CTM (d-CTM)} for partition-tolerant trace storage with BFT consensus; the \textbf{Inter-Agent Bridge Integrity Matrix (IA-BIM)} for measuring swarm semantic coherence; the \textbf{Orphan Protocol} for detecting and recovering lost agents; and \textbf{Hierarchical ZK-SP} for recursive proof aggregation enabling ``audit 100,000 agents with one cryptographic check.'' Together, these components establish the substrate for \textit{Reflexive Symbolic Cognition Systems} (RSCS)---AI systems that monitor, evaluate, learn from, and improve themselves in closed loop, with no human in the loop required. \textit{In simulation}, we demonstrate scalability to 500 agents with O($\log n$) proof verification. Results demonstrate feasibility under controlled SOE conditions.
 \end{abstract}
+
+%========================================
+% GOLDEN THREAD: THE EFM JOURNEY
+%========================================
+
+\begin{tcolorbox}[colback=efmblue!5, colframe=efmblue, title=\textbf{The Golden Thread: EFM Journey (Booklets 1--4)}]
+\centering
+\begin{tabular}{ccccc}
+\textbf{B1: Detection} & $\longrightarrow$ & \textbf{B2: Reconstruction} & $\longrightarrow$ & \textbf{B3: Governance} \\
+\small\textit{Find drift} & & \small\textit{Rebuild safely} & & \small\textit{Predict \& control} \\
+& & & & \\
+& & $\Downarrow$ & & \\
+& & & & \\
+\multicolumn{5}{c}{\textbf{B4: Distributed Autonomy}} \\
+\multicolumn{5}{c}{\small\textit{Scale to 100,000 agents with self-originated purpose}} \\
+\end{tabular}
+
+\vspace{0.5em}
+\textbf{Core Progression:}
+\begin{center}
+\small
+Reactive Monitoring $\to$ Proactive Healing $\to$ Predictive Governance $\to$ \textbf{Emergent Cognition}
+\end{center}
+\end{tcolorbox}
 
 \tableofcontents
 \newpage
@@ -756,6 +782,8 @@ All results are from a \textbf{Simulated Operational Environment (SOE)} with syn
     \item Python reference implementation (not optimized)
 \end{itemize}
 
+\textit{For a summary of assumed threats and security non-goals, see the Threat Model Matrix in Appendix H.3.}
+
 \section{Scalability Results}
 
 \begin{figure}[H]
@@ -781,7 +809,7 @@ All results are from a \textbf{Simulated Operational Environment (SOE)} with syn
 \end{tabular}
 \end{table}
 
-\textbf{Analysis}:
+\textbf{Analysis} (see Figure~\ref{fig:scalability}):
 \begin{itemize}
     \item Tick time is O($n^2$) due to pairwise IA-BIM computation
     \item For production: sample-based coherence estimation or locality-sensitive hashing
@@ -1074,6 +1102,18 @@ When an anomaly persists and reaches sufficient priority, the forest \textbf{spa
 
 Each branch synthesizes its own mission based on its target anomaly:
 
+\begin{tcolorbox}[colback=efmgreen!5, colframe=efmgreen, title=\textbf{Purpose Synthesis Pipeline}]
+\centering
+\begin{tabular}{ccccccc}
+\textbf{Raw Data} & $\longrightarrow$ & \textbf{Anomaly} & $\longrightarrow$ & \textbf{Hypothesis} & $\longrightarrow$ & \textbf{Mission} \\
+\small Observations & & \small Flagged pattern & & \small Generated theory & & \small Self-defined goal \\
+\end{tabular}
+
+\vspace{0.5em}
+\small
+\textit{The system does not execute pre-programmed tasks---it \textbf{derives its own purpose} from discovered patterns.}
+\end{tcolorbox}
+
 \begin{lstlisting}[language=Python, caption={Autonomous Purpose Creation}]
 def synthesize_purpose(anomaly):
     if anomaly.type == SEMANTIC_OUTLIER:
@@ -1086,12 +1126,12 @@ def synthesize_purpose(anomaly):
 
 \textbf{This is NOT programmed purpose---it is DERIVED purpose.} The branch generates hypotheses, sets success criteria, and determines what it needs to discover.
 
-\subsection{Trunk Seeding: True Self-Origination}
+\subsection{Trunk Seeding: Emergent Self-Origination}
 
-When a branch achieves exceptional success (high novelty, high confidence, many discoveries), it can \textbf{seed a new trunk}:
+Within the constraints of the architecture and data priors, when a branch achieves exceptional success (high novelty, high confidence, many discoveries), it can \textbf{seed a new trunk}:
 
 \begin{quote}
-The new trunk has its OWN mission, derived autonomously from what the branch discovered during exploration. The system did not just fork policy---it \textbf{CREATED A NEW ENTITY} with a self-defined purpose.
+The new trunk has its OWN mission, derived autonomously from what the branch discovered during exploration. The system did not just fork policy---it \textbf{CREATED A NEW ENTITY} with a self-defined purpose. (See Appendix C for scope limitations on this claim.)
 \end{quote}
 
 \subsection{Demonstrated Results}
@@ -1119,7 +1159,7 @@ Knowledge Growth Rate & 40.27/tick \\
 \end{table}
 
 \begin{keyinsight}[Decay Defeated]
-Sustainability ratio of 1.84 means the system gains 84\% more knowledge than it loses to decay. \textbf{Decay is defeated through branching and regeneration.}
+Sustainability ratio of 1.84 means the system gains 84\% more knowledge than it loses to decay. \textbf{Decay is defeated through branching and regeneration.} (See Forest Growth figure below for the full dynamics.)
 \end{keyinsight}
 
 \begin{figure}[H]
@@ -1170,7 +1210,7 @@ Growth Rate & 38.29/tick \\
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{multigenerational_growth.png}
-\caption{Multi-Generational Forest: Knowledge accumulation, forest population, discoveries, and generational depth over 150 autonomous ticks.}
+\caption{Multi-Generational Forest: Knowledge accumulation, forest population, discoveries, and generational depth over 150 autonomous ticks. \textit{Note: Forest population and generational depth remain stable in this run because the system prioritized consolidation over expansion; different seeds or longer runs exhibit branching variation. Knowledge and discoveries show the primary growth dynamics.}}
 \end{figure}
 
 \subsection{Swarm Ecosystem: Cross-Trunk Analysis}
@@ -1288,7 +1328,7 @@ CORE & 97 \\
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{ecosystem_analysis.png}
-\caption{Swarm Ecosystem Analysis: Combined knowledge growth, cross-trunk correlations, convergent discoveries, catalog growth, pattern matches, and normalized ecosystem health across 100 autonomous ticks with 3 independent swarms.}
+\caption{Swarm Ecosystem Analysis: Combined knowledge growth, cross-trunk correlations, convergent discoveries, catalog growth, pattern matches, and normalized ecosystem health across 100 autonomous ticks with 3 independent swarms. \textit{Note: Correlation and discovery counts are cumulative totals over all ticks and swarm pairs, not per-tick rates. The large absolute numbers reflect aggregation across the full simulation.}}
 \end{figure}
 
 \subsubsection{Convergent Discovery Analysis}
@@ -1556,6 +1596,10 @@ Self-Origination & Forest Architecture (Sec. 45) & \textbf{Emergent} & L5 \\
     \item Cannot modify core algorithms (appropriate safety constraint)
 \end{enumerate}
 
+\begin{tcolorbox}[colback=yellow!10, colframe=yellow!50!black, title=Validation Scope Reminder]
+\textbf{Important}: Level 5 Emergent capabilities are demonstrated only within the Simulated Operational Environment (SOE) described in Section 31---synthetic data, simplified BFT, Python reference implementation, no adversarial conditions. Deployment in production systems requires the hardening steps outlined in Appendix H before these claims extend beyond controlled simulation.
+\end{tcolorbox}
+
 \section{Longevity Claim Assessment}
 
 \begin{tcolorbox}[colback=efmblue!10, colframe=efmblue, title=Claim: Hardware-Bound Longevity]
@@ -1773,6 +1817,16 @@ The operator dashboard provides four views:
     \item \textbf{Emergency Control}: Kill switch (guarded), trace level override, quarantine manager
 \end{enumerate}
 
+\begin{tcolorbox}[colback=red!5, colframe=red!70!black, title=\textbf{Emergency Halt: Cryptographic Shredding}]
+The software halt is enforced through \textbf{Cryptographic Shredding}: deletion of the private keys required for ZK-SP proof generation. Once keys are destroyed:
+\begin{itemize}
+    \item The swarm cannot generate valid proofs
+    \item All outputs become unverifiable to external validators
+    \item The system is cryptographically ``dead'' to the network
+\end{itemize}
+This transforms a simple ``stop button'' into a \textbf{cryptographic guarantee} of termination---the system cannot resume without complete re-keying and re-attestation.
+\end{tcolorbox}
+
 \textbf{Access Control}: Viewer $\rightarrow$ Operator $\rightarrow$ Admin $\rightarrow$ Emergency (kill switch requires 2FA).
 
 \subsection{Hardware Requirements}
@@ -1924,6 +1978,25 @@ The Integration Layer addresses all identified gaps:
     \item Deployment profiles clarify real-world targets with concrete $\Phi$ definitions
 \end{itemize}
 \end{keyinsight}
+
+%========================================
+% FINAL STATUS
+%========================================
+
+\begin{tcolorbox}[colback=yellow!10, colframe=yellow!50!black, title=\textbf{Document Status}]
+This booklet introduces the Entropica Forensic Model in its \textbf{advanced prototyping phase}---not a turnkey production system. Specifically:
+
+\begin{itemize}
+    \item \textbf{ZK-SP}: API-specified with stub implementations; full circuit integration is future work
+    \item \textbf{Consensus}: Byzantine-inspired heuristic; formal PBFT integration planned
+    \item \textbf{BCI Dashboard}: Appendix G prototype; production UI requires frontend development
+    \item \textbf{Cryptography}: Placeholder signatures; production requires Ed25519/HSM integration
+\end{itemize}
+
+All benchmark results are from the \textbf{Simulated Operational Environment (SOE)} described in Section 31, using synthetic data under controlled conditions. Production deployment requires the hardening steps outlined in Appendix H.
+
+\textit{This framework demonstrates feasibility and architectural coherence. The path from prototype to production is defined but not yet traversed.}
+\end{tcolorbox}
 
 \section{References}
 

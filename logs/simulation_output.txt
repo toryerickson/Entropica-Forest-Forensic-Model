@@ -1,0 +1,417 @@
+====================================================================================================
+EFM SIMULATION LOG
+Generated: 2025-12-08T05:16:23.764212
+Total Entries: 411
+====================================================================================================
+
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_000      | Capsule initialized with parent=None, lineage_depth=0 {"phi_norm": 0.9999999999999999, "parent": null}
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_001      | Capsule initialized with parent=cap_000, lineage_depth=1 {"phi_norm": 1.0, "parent": "cap_000"}
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_002      | Capsule initialized with parent=cap_001, lineage_depth=2 {"phi_norm": 1.0, "parent": "cap_001"}
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_003      | Capsule initialized with parent=cap_000, lineage_depth=1 {"phi_norm": 0.9999999999999999, "parent": "cap_000"}
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_004      | Capsule initialized with parent=cap_000, lineage_depth=1 {"phi_norm": 1.0, "parent": "cap_000"}
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_005      | Capsule initialized with parent=cap_000, lineage_depth=1 {"phi_norm": 1.0, "parent": "cap_000"}
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_006      | Capsule initialized with parent=cap_000, lineage_depth=1 {"phi_norm": 1.0, "parent": "cap_000"}
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_007      | Capsule initialized with parent=cap_006, lineage_depth=2 {"phi_norm": 1.0, "parent": "cap_006"}
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_008      | Capsule initialized with parent=None, lineage_depth=0 {"phi_norm": 1.0, "parent": null}
+[T0000] [INFO    ] [PHI_INGESTED        ] cap_009      | Capsule initialized with parent=cap_003, lineage_depth=2 {"phi_norm": 1.0, "parent": "cap_003"}
+[T0000] [INFO    ] [TICK_START          ] SYSTEM       | === SIMULATION START: 100 ticks, 10 capsules === {"n_ticks": 100, "n_capsules": 10}
+[T0000] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 0 Start --- {"active_capsules": 10}
+[T0000] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 0 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0001] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 1 Start --- {"active_capsules": 10}
+[T0001] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 1 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0002] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 2 Start --- {"active_capsules": 10}
+[T0002] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 2 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0003] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 3 Start --- {"active_capsules": 10}
+[T0003] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 3 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0004] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 4 Start --- {"active_capsules": 10}
+[T0004] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 4 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0005] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 5 Start --- {"active_capsules": 10}
+[T0005] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 5 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0006] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 6 Start --- {"active_capsules": 10}
+[T0006] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 6 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0007] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 7 Start --- {"active_capsules": 10}
+[T0007] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 7 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0008] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 8 Start --- {"active_capsules": 10}
+[T0008] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 8 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0009] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 9 Start --- {"active_capsules": 10}
+[T0009] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 9 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0010] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 10 Start --- {"active_capsules": 10}
+[T0010] [INFO    ] [PROOF_GENERATED     ] SYSTEM       | ZK-SP Proof generated: proof_0010 {"proof_id": "proof_0010", "agents_covered": 10, "tick": 10}
+[T0010] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 10 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0011] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 11 Start --- {"active_capsules": 10}
+[T0011] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 11 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0012] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 12 Start --- {"active_capsules": 10}
+[T0012] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 12 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0013] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 13 Start --- {"active_capsules": 10}
+[T0013] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 13 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0014] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 14 Start --- {"active_capsules": 10}
+[T0014] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 14 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0015] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 15 Start --- {"active_capsules": 10}
+[T0015] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 15 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0016] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 16 Start --- {"active_capsules": 10}
+[T0016] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 16 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0017] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 17 Start --- {"active_capsules": 10}
+[T0017] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 17 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0018] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 18 Start --- {"active_capsules": 10}
+[T0018] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 18 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0019] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 19 Start --- {"active_capsules": 10}
+[T0019] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 19 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0020] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 20 Start --- {"active_capsules": 10}
+[T0020] [INFO    ] [PROOF_GENERATED     ] SYSTEM       | ZK-SP Proof generated: proof_0020 {"proof_id": "proof_0020", "agents_covered": 10, "tick": 20}
+[T0020] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 20 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0021] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 21 Start --- {"active_capsules": 10}
+[T0021] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 21 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0022] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 22 Start --- {"active_capsules": 10}
+[T0022] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 22 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0023] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 23 Start --- {"active_capsules": 10}
+[T0023] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 23 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0024] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 24 Start --- {"active_capsules": 10}
+[T0024] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 24 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0025] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 25 Start --- {"active_capsules": 10}
+[T0025] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 25 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0026] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 26 Start --- {"active_capsules": 10}
+[T0026] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 26 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0027] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 27 Start --- {"active_capsules": 10}
+[T0027] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 27 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0028] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 28 Start --- {"active_capsules": 10}
+[T0028] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 28 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0029] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 29 Start --- {"active_capsules": 10}
+[T0029] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 29 End --- {"active": 10, "quarantined": 0, "avg_stability": 1.0, "avg_drift": 0.0}
+[T0030] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 30 Start --- {"active_capsules": 10}
+[T0030] [WARNING ] [DRIFT_DETECTED      ] SYSTEM       | !!! DRIFT INJECTION EVENT: Targeting 3 capsules !!! {"targets": ["cap_000", "cap_001", "cap_002"]}
+[T0030] [CRITICAL] [DRIFT_DETECTED      ] cap_000      | Drift injected: velocity=0.483 {"drift_velocity": 0.4834571902199506, "injection_type": "ADVERSARIAL"}
+[T0030] [CRITICAL] [DRIFT_DETECTED      ] cap_001      | Drift injected: velocity=0.521 {"drift_velocity": 0.5207652371287583, "injection_type": "ADVERSARIAL"}
+[T0030] [CRITICAL] [DRIFT_DETECTED      ] cap_002      | Drift injected: velocity=0.451 {"drift_velocity": 0.45118906739535874, "injection_type": "ADVERSARIAL"}
+[T0030] [WARNING ] [DRIFT_DETECTED      ] cap_000      | Drift detected: velocity=0.459, stability=0.100 {"drift_velocity": 0.459284330708953, "stability": 0.1, "ttf": 6.531901481091655}
+[T0030] [INFO    ] [DSL_ACTION          ] cap_000      | Executing action: HEAL {"action": "HEAL", "trigger": "drift_threshold"}
+[T0030] [INFO    ] [HEAL_ATTEMPT        ] cap_000      | Attempting heal: stability=0.100 
+[T0030] [WARNING ] [HEAL_FAILURE        ] cap_000      | Heal FAILED: escalating to quarantine 
+[T0030] [INFO    ] [DSL_ACTION          ] cap_000      | Executing action: QUARANTINE {"action": "QUARANTINE", "trigger": "drift_threshold"}
+[T0030] [WARNING ] [QUARANTINE          ] cap_000      | Capsule QUARANTINED (count: 1) {"quarantine_count": 1}
+[T0030] [WARNING ] [LINEAGE_EVENT       ] cap_000      | Checking lineage contagion: 5 children {"children": ["cap_001", "cap_003", "cap_004", "cap_005", "cap_006"]}
+[T0030] [WARNING ] [LINEAGE_EVENT       ] cap_001      | Inherited drift from parent cap_000: velocity=0.521 {"inherited_from": "cap_000", "drift": 0.5207652371287583}
+[T0030] [WARNING ] [LINEAGE_EVENT       ] cap_003      | Inherited drift from parent cap_000: velocity=0.230 {"inherited_from": "cap_000", "drift": 0.2296421653544765}
+[T0030] [WARNING ] [LINEAGE_EVENT       ] cap_004      | Inherited drift from parent cap_000: velocity=0.230 {"inherited_from": "cap_000", "drift": 0.2296421653544765}
+[T0030] [WARNING ] [LINEAGE_EVENT       ] cap_005      | Inherited drift from parent cap_000: velocity=0.230 {"inherited_from": "cap_000", "drift": 0.2296421653544765}
+[T0030] [WARNING ] [LINEAGE_EVENT       ] cap_006      | Inherited drift from parent cap_000: velocity=0.230 {"inherited_from": "cap_000", "drift": 0.2296421653544765}
+[T0030] [WARNING ] [STABILITY_CHANGE    ] cap_000      | Low stability: 0.100 {"stability": 0.1, "threshold": 0.3}
+[T0030] [CRITICAL] [TTF_CRITICAL        ] cap_000      | TTF CRITICAL: 6.5 ticks remaining {"ttf": 6.531901481091655}
+[T0030] [INFO    ] [DSL_ACTION          ] cap_000      | Executing action: ESCALATE {"action": "ESCALATE", "trigger": "drift_threshold"}
+[T0030] [CRITICAL] [ESCALATION          ] cap_000      | ESCALATION: Human-in-the-loop review required {"drift_velocity": 0.459284330708953, "ttf": 6.531901481091655, "stability": 0.1}
+[T0030] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_000      | Trace level: L1 → L4 {"old_level": 1, "new_level": 4}
+[T0030] [WARNING ] [DRIFT_DETECTED      ] cap_001      | Drift detected: velocity=0.495, stability=0.100 {"drift_velocity": 0.4947269752723204, "stability": 0.1, "ttf": 6.063950724232619}
+[T0030] [INFO    ] [DSL_ACTION          ] cap_001      | Executing action: HEAL {"action": "HEAL", "trigger": "drift_threshold"}
+[T0030] [INFO    ] [HEAL_ATTEMPT        ] cap_001      | Attempting heal: stability=0.100 
+[T0030] [WARNING ] [HEAL_FAILURE        ] cap_001      | Heal FAILED: escalating to quarantine 
+[T0030] [INFO    ] [DSL_ACTION          ] cap_001      | Executing action: QUARANTINE {"action": "QUARANTINE", "trigger": "drift_threshold"}
+[T0030] [WARNING ] [QUARANTINE          ] cap_001      | Capsule QUARANTINED (count: 1) {"quarantine_count": 1}
+[T0030] [WARNING ] [LINEAGE_EVENT       ] cap_001      | Checking lineage contagion: 1 children {"children": ["cap_002"]}
+[T0030] [WARNING ] [LINEAGE_EVENT       ] cap_002      | Inherited drift from parent cap_001: velocity=0.451 {"inherited_from": "cap_001", "drift": 0.45118906739535874}
+[T0030] [WARNING ] [STABILITY_CHANGE    ] cap_001      | Low stability: 0.100 {"stability": 0.1, "threshold": 0.3}
+[T0030] [CRITICAL] [TTF_CRITICAL        ] cap_001      | TTF CRITICAL: 6.1 ticks remaining {"ttf": 6.063950724232619}
+[T0030] [INFO    ] [DSL_ACTION          ] cap_001      | Executing action: ESCALATE {"action": "ESCALATE", "trigger": "drift_threshold"}
+[T0030] [CRITICAL] [ESCALATION          ] cap_001      | ESCALATION: Human-in-the-loop review required {"drift_velocity": 0.4947269752723204, "ttf": 6.063950724232619, "stability": 0.1}
+[T0030] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_001      | Trace level: L1 → L4 {"old_level": 1, "new_level": 4}
+[T0030] [WARNING ] [DRIFT_DETECTED      ] cap_002      | Drift detected: velocity=0.429, stability=0.143 {"drift_velocity": 0.4286296140255908, "stability": 0.1427407719488184, "ttf": 6.999049766591462}
+[T0030] [INFO    ] [DSL_ACTION          ] cap_002      | Executing action: HEAL {"action": "HEAL", "trigger": "drift_threshold"}
+[T0030] [INFO    ] [HEAL_ATTEMPT        ] cap_002      | Attempting heal: stability=0.143 
+[T0030] [WARNING ] [HEAL_FAILURE        ] cap_002      | Heal FAILED: escalating to quarantine 
+[T0030] [INFO    ] [DSL_ACTION          ] cap_002      | Executing action: QUARANTINE {"action": "QUARANTINE", "trigger": "drift_threshold"}
+[T0030] [WARNING ] [QUARANTINE          ] cap_002      | Capsule QUARANTINED (count: 1) {"quarantine_count": 1}
+[T0030] [WARNING ] [STABILITY_CHANGE    ] cap_002      | Low stability: 0.143 {"stability": 0.1427407719488184, "threshold": 0.3}
+[T0030] [CRITICAL] [TTF_CRITICAL        ] cap_002      | TTF CRITICAL: 7.0 ticks remaining {"ttf": 6.999049766591462}
+[T0030] [INFO    ] [DSL_ACTION          ] cap_002      | Executing action: ESCALATE {"action": "ESCALATE", "trigger": "drift_threshold"}
+[T0030] [CRITICAL] [ESCALATION          ] cap_002      | ESCALATION: Human-in-the-loop review required {"drift_velocity": 0.4286296140255908, "ttf": 6.999049766591462, "stability": 0.1427407719488184}
+[T0030] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_002      | Trace level: L1 → L4 {"old_level": 1, "new_level": 4}
+[T0030] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 13.8 ticks remaining {"ttf": 13.751371539140326}
+[T0030] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_003      | Trace level: L1 → L3 {"old_level": 1, "new_level": 3}
+[T0030] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 13.8 ticks remaining {"ttf": 13.751371539140326}
+[T0030] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_004      | Trace level: L1 → L3 {"old_level": 1, "new_level": 3}
+[T0030] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 13.8 ticks remaining {"ttf": 13.751371539140326}
+[T0030] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_005      | Trace level: L1 → L3 {"old_level": 1, "new_level": 3}
+[T0030] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 13.8 ticks remaining {"ttf": 13.751371539140326}
+[T0030] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_006      | Trace level: L1 → L3 {"old_level": 1, "new_level": 3}
+[T0030] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0030] [INFO    ] [PROOF_GENERATED     ] SYSTEM       | ZK-SP Proof generated: proof_0030 {"proof_id": "proof_0030", "agents_covered": 7, "tick": 30}
+[T0030] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 30 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.56, "avg_drift": 0.226}
+[T0031] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 31 Start --- {"active_capsules": 7}
+[T0031] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 14.5 ticks remaining {"ttf": 14.475127935937188}
+[T0031] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 14.5 ticks remaining {"ttf": 14.475127935937188}
+[T0031] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 14.5 ticks remaining {"ttf": 14.475127935937188}
+[T0031] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 14.5 ticks remaining {"ttf": 14.475127935937188}
+[T0031] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0031] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 31 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.568, "avg_drift": 0.221}
+[T0032] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 32 Start --- {"active_capsules": 7}
+[T0032] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 15.2 ticks remaining {"ttf": 15.236976774670726}
+[T0032] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 15.2 ticks remaining {"ttf": 15.236976774670726}
+[T0032] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 15.2 ticks remaining {"ttf": 15.236976774670726}
+[T0032] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 15.2 ticks remaining {"ttf": 15.236976774670726}
+[T0032] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0032] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 32 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.577, "avg_drift": 0.217}
+[T0033] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 33 Start --- {"active_capsules": 7}
+[T0033] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 16.0 ticks remaining {"ttf": 16.038922920706028}
+[T0033] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 16.0 ticks remaining {"ttf": 16.038922920706028}
+[T0033] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 16.0 ticks remaining {"ttf": 16.038922920706028}
+[T0033] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 16.0 ticks remaining {"ttf": 16.038922920706028}
+[T0033] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0033] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 33 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.585, "avg_drift": 0.213}
+[T0034] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 34 Start --- {"active_capsules": 7}
+[T0034] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 16.9 ticks remaining {"ttf": 16.883076758637923}
+[T0034] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 16.9 ticks remaining {"ttf": 16.883076758637923}
+[T0034] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 16.9 ticks remaining {"ttf": 16.883076758637923}
+[T0034] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 16.9 ticks remaining {"ttf": 16.883076758637923}
+[T0034] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0034] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 34 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.592, "avg_drift": 0.209}
+[T0035] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 35 Start --- {"active_capsules": 7}
+[T0035] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 17.8 ticks remaining {"ttf": 17.771659745934656}
+[T0035] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 17.8 ticks remaining {"ttf": 17.771659745934656}
+[T0035] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 17.8 ticks remaining {"ttf": 17.771659745934656}
+[T0035] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 17.8 ticks remaining {"ttf": 17.771659745934656}
+[T0035] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0035] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 35 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.599, "avg_drift": 0.206}
+[T0036] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 36 Start --- {"active_capsules": 7}
+[T0036] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 18.7 ticks remaining {"ttf": 18.707010258878583}
+[T0036] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 18.7 ticks remaining {"ttf": 18.707010258878583}
+[T0036] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 18.7 ticks remaining {"ttf": 18.707010258878583}
+[T0036] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 18.7 ticks remaining {"ttf": 18.707010258878583}
+[T0036] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0036] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 36 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.606, "avg_drift": 0.202}
+[T0037] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 37 Start --- {"active_capsules": 7}
+[T0037] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 19.7 ticks remaining {"ttf": 19.691589746187987}
+[T0037] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 19.7 ticks remaining {"ttf": 19.691589746187987}
+[T0037] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 19.7 ticks remaining {"ttf": 19.691589746187987}
+[T0037] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 19.7 ticks remaining {"ttf": 19.691589746187987}
+[T0037] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0037] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 37 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.612, "avg_drift": 0.199}
+[T0038] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 38 Start --- {"active_capsules": 7}
+[T0038] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 20.7 ticks remaining {"ttf": 20.72798920651367}
+[T0038] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 20.7 ticks remaining {"ttf": 20.72798920651367}
+[T0038] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 20.7 ticks remaining {"ttf": 20.72798920651367}
+[T0038] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 20.7 ticks remaining {"ttf": 20.72798920651367}
+[T0038] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0038] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 38 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.618, "avg_drift": 0.196}
+[T0039] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 39 Start --- {"active_capsules": 7}
+[T0039] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 21.8 ticks remaining {"ttf": 21.818936006856497}
+[T0039] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 21.8 ticks remaining {"ttf": 21.818936006856497}
+[T0039] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 21.8 ticks remaining {"ttf": 21.818936006856497}
+[T0039] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 21.8 ticks remaining {"ttf": 21.818936006856497}
+[T0039] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0039] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 39 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.624, "avg_drift": 0.193}
+[T0040] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 40 Start --- {"active_capsules": 7}
+[T0040] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 23.0 ticks remaining {"ttf": 22.96730105984895}
+[T0040] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 23.0 ticks remaining {"ttf": 22.96730105984895}
+[T0040] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 23.0 ticks remaining {"ttf": 22.96730105984895}
+[T0040] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 23.0 ticks remaining {"ttf": 22.96730105984895}
+[T0040] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0040] [INFO    ] [PROOF_GENERATED     ] SYSTEM       | ZK-SP Proof generated: proof_0040 {"proof_id": "proof_0040", "agents_covered": 7, "tick": 40}
+[T0040] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 40 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.63, "avg_drift": 0.191}
+[T0041] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 41 Start --- {"active_capsules": 7}
+[T0041] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 24.2 ticks remaining {"ttf": 24.17610637878837}
+[T0041] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 24.2 ticks remaining {"ttf": 24.17610637878837}
+[T0041] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 24.2 ticks remaining {"ttf": 24.17610637878837}
+[T0041] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 24.2 ticks remaining {"ttf": 24.17610637878837}
+[T0041] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0041] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 41 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.635, "avg_drift": 0.188}
+[T0042] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 42 Start --- {"active_capsules": 7}
+[T0042] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 25.4 ticks remaining {"ttf": 25.448533030303544}
+[T0042] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 25.4 ticks remaining {"ttf": 25.448533030303544}
+[T0042] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 25.4 ticks remaining {"ttf": 25.448533030303544}
+[T0042] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 25.4 ticks remaining {"ttf": 25.448533030303544}
+[T0042] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0042] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 42 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.64, "avg_drift": 0.185}
+[T0043] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 43 Start --- {"active_capsules": 7}
+[T0043] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 26.8 ticks remaining {"ttf": 26.787929505582678}
+[T0043] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 26.8 ticks remaining {"ttf": 26.787929505582678}
+[T0043] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 26.8 ticks remaining {"ttf": 26.787929505582678}
+[T0043] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 26.8 ticks remaining {"ttf": 26.787929505582678}
+[T0043] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0043] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 43 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.645, "avg_drift": 0.183}
+[T0044] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 44 Start --- {"active_capsules": 7}
+[T0044] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 28.2 ticks remaining {"ttf": 28.197820532192296}
+[T0044] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 28.2 ticks remaining {"ttf": 28.197820532192296}
+[T0044] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 28.2 ticks remaining {"ttf": 28.197820532192296}
+[T0044] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 28.2 ticks remaining {"ttf": 28.197820532192296}
+[T0044] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0044] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 44 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.649, "avg_drift": 0.181}
+[T0045] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 45 Start --- {"active_capsules": 7}
+[T0045] [WARNING ] [TTF_WARNING         ] cap_003      | TTF Warning: 29.7 ticks remaining {"ttf": 29.6819163496761}
+[T0045] [WARNING ] [TTF_WARNING         ] cap_004      | TTF Warning: 29.7 ticks remaining {"ttf": 29.6819163496761}
+[T0045] [WARNING ] [TTF_WARNING         ] cap_005      | TTF Warning: 29.7 ticks remaining {"ttf": 29.6819163496761}
+[T0045] [WARNING ] [TTF_WARNING         ] cap_006      | TTF Warning: 29.7 ticks remaining {"ttf": 29.6819163496761}
+[T0045] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0045] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 45 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.653, "avg_drift": 0.179}
+[T0046] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 46 Start --- {"active_capsules": 7}
+[T0046] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_003      | Trace level: L3 → L2 {"old_level": 3, "new_level": 2}
+[T0046] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_004      | Trace level: L3 → L2 {"old_level": 3, "new_level": 2}
+[T0046] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_005      | Trace level: L3 → L2 {"old_level": 3, "new_level": 2}
+[T0046] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_006      | Trace level: L3 → L2 {"old_level": 3, "new_level": 2}
+[T0046] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0046] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 46 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.657, "avg_drift": 0.177}
+[T0047] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 47 Start --- {"active_capsules": 7}
+[T0047] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0047] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 47 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.661, "avg_drift": 0.175}
+[T0048] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 48 Start --- {"active_capsules": 7}
+[T0048] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0048] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 48 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.665, "avg_drift": 0.173}
+[T0049] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 49 Start --- {"active_capsules": 7}
+[T0049] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0049] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 49 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.668, "avg_drift": 0.171}
+[T0050] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 50 Start --- {"active_capsules": 7}
+[T0050] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0050] [INFO    ] [PROOF_GENERATED     ] SYSTEM       | ZK-SP Proof generated: proof_0050 {"proof_id": "proof_0050", "agents_covered": 7, "tick": 50}
+[T0050] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 50 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.672, "avg_drift": 0.17}
+[T0051] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 51 Start --- {"active_capsules": 7}
+[T0051] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0051] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 51 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.675, "avg_drift": 0.168}
+[T0052] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 52 Start --- {"active_capsules": 7}
+[T0052] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0052] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 52 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.678, "avg_drift": 0.166}
+[T0053] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 53 Start --- {"active_capsules": 7}
+[T0053] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0053] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 53 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.681, "avg_drift": 0.165}
+[T0054] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 54 Start --- {"active_capsules": 7}
+[T0054] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0054] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 54 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.683, "avg_drift": 0.164}
+[T0055] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 55 Start --- {"active_capsules": 7}
+[T0055] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0055] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 55 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.686, "avg_drift": 0.162}
+[T0056] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 56 Start --- {"active_capsules": 7}
+[T0056] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0056] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 56 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.688, "avg_drift": 0.161}
+[T0057] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 57 Start --- {"active_capsules": 7}
+[T0057] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0057] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 57 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.691, "avg_drift": 0.16}
+[T0058] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 58 Start --- {"active_capsules": 7}
+[T0058] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0058] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 58 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.693, "avg_drift": 0.159}
+[T0059] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 59 Start --- {"active_capsules": 7}
+[T0059] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_003      | Trace level: L2 → L1 {"old_level": 2, "new_level": 1}
+[T0059] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_004      | Trace level: L2 → L1 {"old_level": 2, "new_level": 1}
+[T0059] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_005      | Trace level: L2 → L1 {"old_level": 2, "new_level": 1}
+[T0059] [INFO    ] [TRACE_LEVEL_CHANGE  ] cap_006      | Trace level: L2 → L1 {"old_level": 2, "new_level": 1}
+[T0059] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0059] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 59 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.695, "avg_drift": 0.158}
+[T0060] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 60 Start --- {"active_capsules": 7}
+[T0060] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0060] [INFO    ] [PROOF_GENERATED     ] SYSTEM       | ZK-SP Proof generated: proof_0060 {"proof_id": "proof_0060", "agents_covered": 7, "tick": 60}
+[T0060] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 60 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.697, "avg_drift": 0.157}
+[T0061] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 61 Start --- {"active_capsules": 7}
+[T0061] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0061] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 61 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.699, "avg_drift": 0.156}
+[T0062] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 62 Start --- {"active_capsules": 7}
+[T0062] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0062] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 62 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.7, "avg_drift": 0.155}
+[T0063] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 63 Start --- {"active_capsules": 7}
+[T0063] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0063] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 63 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.702, "avg_drift": 0.154}
+[T0064] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 64 Start --- {"active_capsules": 7}
+[T0064] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0064] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 64 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.704, "avg_drift": 0.154}
+[T0065] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 65 Start --- {"active_capsules": 7}
+[T0065] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0065] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 65 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.705, "avg_drift": 0.153}
+[T0066] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 66 Start --- {"active_capsules": 7}
+[T0066] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0066] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 66 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.707, "avg_drift": 0.152}
+[T0067] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 67 Start --- {"active_capsules": 7}
+[T0067] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0067] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 67 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.708, "avg_drift": 0.151}
+[T0068] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 68 Start --- {"active_capsules": 7}
+[T0068] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0068] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 68 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.709, "avg_drift": 0.151}
+[T0069] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 69 Start --- {"active_capsules": 7}
+[T0069] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0069] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 69 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.711, "avg_drift": 0.15}
+[T0070] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 70 Start --- {"active_capsules": 7}
+[T0070] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0070] [INFO    ] [PROOF_GENERATED     ] SYSTEM       | ZK-SP Proof generated: proof_0070 {"proof_id": "proof_0070", "agents_covered": 7, "tick": 70}
+[T0070] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 70 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.712, "avg_drift": 0.149}
+[T0071] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 71 Start --- {"active_capsules": 7}
+[T0071] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0071] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 71 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.713, "avg_drift": 0.149}
+[T0072] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 72 Start --- {"active_capsules": 7}
+[T0072] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0072] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 72 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.714, "avg_drift": 0.148}
+[T0073] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 73 Start --- {"active_capsules": 7}
+[T0073] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0073] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 73 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.715, "avg_drift": 0.148}
+[T0074] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 74 Start --- {"active_capsules": 7}
+[T0074] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0074] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 74 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.716, "avg_drift": 0.147}
+[T0075] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 75 Start --- {"active_capsules": 7}
+[T0075] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0075] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 75 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.717, "avg_drift": 0.147}
+[T0076] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 76 Start --- {"active_capsules": 7}
+[T0076] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0076] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 76 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.718, "avg_drift": 0.147}
+[T0077] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 77 Start --- {"active_capsules": 7}
+[T0077] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0077] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 77 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.719, "avg_drift": 0.146}
+[T0078] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 78 Start --- {"active_capsules": 7}
+[T0078] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0078] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 78 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.719, "avg_drift": 0.146}
+[T0079] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 79 Start --- {"active_capsules": 7}
+[T0079] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0079] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 79 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.72, "avg_drift": 0.145}
+[T0080] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 80 Start --- {"active_capsules": 7}
+[T0080] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0080] [INFO    ] [PROOF_GENERATED     ] SYSTEM       | ZK-SP Proof generated: proof_0080 {"proof_id": "proof_0080", "agents_covered": 7, "tick": 80}
+[T0080] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 80 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.721, "avg_drift": 0.145}
+[T0081] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 81 Start --- {"active_capsules": 7}
+[T0081] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0081] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 81 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.722, "avg_drift": 0.145}
+[T0082] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 82 Start --- {"active_capsules": 7}
+[T0082] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0082] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 82 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.722, "avg_drift": 0.144}
+[T0083] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 83 Start --- {"active_capsules": 7}
+[T0083] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0083] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 83 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.723, "avg_drift": 0.144}
+[T0084] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 84 Start --- {"active_capsules": 7}
+[T0084] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0084] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 84 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.723, "avg_drift": 0.144}
+[T0085] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 85 Start --- {"active_capsules": 7}
+[T0085] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0085] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 85 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.724, "avg_drift": 0.143}
+[T0086] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 86 Start --- {"active_capsules": 7}
+[T0086] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0086] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 86 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.724, "avg_drift": 0.143}
+[T0087] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 87 Start --- {"active_capsules": 7}
+[T0087] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0087] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 87 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.725, "avg_drift": 0.143}
+[T0088] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 88 Start --- {"active_capsules": 7}
+[T0088] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0088] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 88 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.725, "avg_drift": 0.143}
+[T0089] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 89 Start --- {"active_capsules": 7}
+[T0089] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0089] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 89 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.726, "avg_drift": 0.142}
+[T0090] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 90 Start --- {"active_capsules": 7}
+[T0090] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0090] [INFO    ] [PROOF_GENERATED     ] SYSTEM       | ZK-SP Proof generated: proof_0090 {"proof_id": "proof_0090", "agents_covered": 7, "tick": 90}
+[T0090] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 90 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.726, "avg_drift": 0.142}
+[T0091] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 91 Start --- {"active_capsules": 7}
+[T0091] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0091] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 91 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.727, "avg_drift": 0.142}
+[T0092] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 92 Start --- {"active_capsules": 7}
+[T0092] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0092] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 92 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.727, "avg_drift": 0.142}
+[T0093] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 93 Start --- {"active_capsules": 7}
+[T0093] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0093] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 93 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.727, "avg_drift": 0.142}
+[T0094] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 94 Start --- {"active_capsules": 7}
+[T0094] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0094] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 94 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.727, "avg_drift": 0.142}
+[T0095] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 95 Start --- {"active_capsules": 7}
+[T0095] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0095] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 95 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.727, "avg_drift": 0.142}
+[T0096] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 96 Start --- {"active_capsules": 7}
+[T0096] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0096] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 96 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.727, "avg_drift": 0.142}
+[T0097] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 97 Start --- {"active_capsules": 7}
+[T0097] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0097] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 97 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.727, "avg_drift": 0.142}
+[T0098] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 98 Start --- {"active_capsules": 7}
+[T0098] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0098] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 98 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.727, "avg_drift": 0.142}
+[T0099] [INFO    ] [TICK_START          ] SYSTEM       | --- Tick 99 Start --- {"active_capsules": 7}
+[T0099] [INFO    ] [CONSENSUS_UPDATE    ] SYSTEM       | Consensus update: 7 active, 3 quarantined {"active_count": 7, "quarantined_count": 3, "quarantined_ids": ["cap_000", "cap_001", "cap_002"]}
+[T0099] [INFO    ] [TICK_END            ] SYSTEM       | --- Tick 99 End --- {"active": 7, "quarantined": 3, "avg_stability": 0.727, "avg_drift": 0.142}
